@@ -241,7 +241,7 @@ namespace Capa_Presentacion
                 cmd.Parameters.AddWithValue("@Municipio_ID", CBEmpleadoMunicipio);
                 cmd.Parameters.AddWithValue("@Cargo_ID", CBCargo);
                 cmd.Parameters.AddWithValue("@Empleado_Sector", TBSector.Text);
-                cmd.ExecuteNonQuery();
+               // cmd.ExecuteNonQuery();
                 MessageBox.Show("Record Updated Successfully");
                 con.Close();
                 DisplayData();

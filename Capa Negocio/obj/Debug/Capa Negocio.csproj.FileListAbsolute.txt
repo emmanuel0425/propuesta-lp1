@@ -4,3 +4,8 @@ C:\Users\maste\source\repos\La Propuesta\Capa Negocio\obj\Debug\Capa Negocio.csp
 C:\Users\maste\source\repos\La Propuesta\Capa Negocio\obj\Debug\Capa Negocio.dll
 C:\Users\maste\source\repos\La Propuesta\Capa Negocio\obj\Debug\Capa Negocio.pdb
 C:\Users\maste\source\repos\La Propuesta\Capa Negocio\obj\Debug\Capa Negocio.csprojAssemblyReference.cache
+C:\Users\maste\Desktop\La Parte 2\propuesta-lp1\propuesta-lp1\Capa Negocio\bin\Debug\Capa Negocio.dll
+C:\Users\maste\Desktop\La Parte 2\propuesta-lp1\propuesta-lp1\Capa Negocio\bin\Debug\Capa Negocio.pdb
+C:\Users\maste\Desktop\La Parte 2\propuesta-lp1\propuesta-lp1\Capa Negocio\obj\Debug\Capa Negocio.csproj.CoreCompileInputs.cache
+C:\Users\maste\Desktop\La Parte 2\propuesta-lp1\propuesta-lp1\Capa Negocio\obj\Debug\Capa Negocio.dll
+C:\Users\maste\Desktop\La Parte 2\propuesta-lp1\propuesta-lp1\Capa Negocio\obj\Debug\Capa Negocio.pdb
