@@ -89,6 +89,8 @@
             this.empleadoBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
             this.empleadoTableAdapter1 = new Capa_Presentacion.Proyecto_FinalDataSet2TableAdapters.EmpleadoTableAdapter();
             this.empleadoBindingSource2 = new System.Windows.Forms.BindingSource(this.components);
+            this.TBEmpleadoID = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.empleadoBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.proyecto_FinalDataSet)).BeginInit();
@@ -483,12 +485,25 @@
             this.empleadoBindingSource2.DataMember = "Empleado";
             this.empleadoBindingSource2.DataSource = this.proyectoFinalDataSet2BindingSource;
             // 
+            // TBEmpleadoID
+            // 
+            resources.ApplyResources(this.TBEmpleadoID, "TBEmpleadoID");
+            this.TBEmpleadoID.Name = "TBEmpleadoID";
+            this.TBEmpleadoID.ReadOnly = true;
+            // 
+            // label3
+            // 
+            resources.ApplyResources(this.label3, "label3");
+            this.label3.Name = "label3";
+            // 
             // Registro_Empleados
             // 
             this.AllowDrop = true;
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.TBEmpleadoID);
             this.Controls.Add(this.DGVEmpleado);
             this.Controls.Add(this.BtnEliminarRegistroEmpleado);
             this.Controls.Add(this.BtnActualizarRegistroEmpleado);
@@ -593,5 +608,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn empleadoSectorDataGridViewTextBoxColumn;
         private System.Windows.Forms.BindingSource empleadoBindingSource3;
         private System.Windows.Forms.BindingSource empleadoBindingSource2;
+        private System.Windows.Forms.TextBox TBEmpleadoID;
+        private System.Windows.Forms.Label label3;
     }
 }

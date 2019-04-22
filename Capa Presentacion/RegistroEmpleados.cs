@@ -305,7 +305,32 @@ namespace Capa_Presentacion
 
         private void DGVEmpleado_DoubleClick(object sender, EventArgs e)
         {
+            bool resultadoOK = true;
+            try
+            {
 
+                TBEmpleadoID.Text = DGVEmpleado.Rows[DGVEmpleado.CurrentRow.Index].Cells["empleadoIDDataGridViewTextBoxColumn"].Value.ToString();
+                TBEmpleadoNombres.Text = DGVEmpleado.Rows[DGVEmpleado.CurrentRow.Index].Cells["empleadoNombresDataGridViewTextBoxColumn"].Value.ToString();
+                TBEmpleadoApellidos.Text = DGVEmpleado.Rows[DGVEmpleado.CurrentRow.Index].Cells["empleadoApellidosDataGridViewTextBoxColumn"].Value.ToString();
+                TBCedula.Text = DGVEmpleado.Rows[DGVEmpleado.CurrentRow.Index].Cells["empleadoCedulaDataGridViewTextBoxColumn"].Value.ToString();
+                TBCelular.Text = DGVEmpleado.Rows[DGVEmpleado.CurrentRow.Index].Cells["empleadoCelularDataGridViewTextBoxColumn"].Value.ToString();
+                TBTelefono.Text = DGVEmpleado.Rows[DGVEmpleado.CurrentRow.Index].Cells["empleadoTelefonoDataGridViewTextBoxColumn"].Value.ToString();
+                TBEmpleadoEmail.Text = DGVEmpleado.Rows[DGVEmpleado.CurrentRow.Index].Cells["empleadoEmailDataGridViewTextBoxColumn"].Value.ToString();
+                TBSector.Text = DGVEmpleado.Rows[DGVEmpleado.CurrentRow.Index].Cells["empleadoSectorDataGridViewTextBoxColumn"].Value.ToString();
+                TBEmpleadoCalle.Text = DGVEmpleado.Rows[DGVEmpleado.CurrentRow.Index].Cells["empleadoDireccionDataGridViewTextBoxColumn"].Value.ToString();
+
+                DTPFechaNac.Text = DGVEmpleado.Rows[DGVEmpleado.CurrentRow.Index].Cells["empleadoFechaNacimientoDataGridViewTextBoxColumn"].Value.ToString();
+                CBCargo.SelectedText = DGVEmpleado.Rows[DGVEmpleado.CurrentRow.Index].Cells["cargoIDDataGridViewTextBoxColumn"].Value.ToString();
+                CBEmpleadoSexo.SelectedText = DGVEmpleado.Rows[DGVEmpleado.CurrentRow.Index].Cells["sexoIDDataGridViewTextBoxColumn"].Value.ToString();
+                CBEmpleadoMunicipio.SelectedText = DGVEmpleado.Rows[DGVEmpleado.CurrentRow.Index].Cells["empleadoIDDataGridViewTextBoxColumn"].Value.ToString();
+                CHBActivo.Checked = Convert.ToBoolean(DGVEmpleado.Rows[DGVEmpleado.CurrentRow.Index].Cells["empleadoActivoDataGridViewCheckBoxColumn"].Value);
+            
+            }
+            catch (Exception error)
+            {
+                resultadoOK = false;
+                MessageBox.Show(error.ToString());
+            }
         }
     }
 }
