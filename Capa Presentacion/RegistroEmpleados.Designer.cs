@@ -68,10 +68,6 @@
             this.BtnEliminarRegistroEmpleado = new System.Windows.Forms.Button();
             this.empleadoTableAdapter = new Capa_Presentacion.Proyecto_FinalDataSetTableAdapters.EmpleadoTableAdapter();
             this.DGVEmpleado = new System.Windows.Forms.DataGridView();
-            this.proyecto_FinalDataSet2 = new Capa_Presentacion.Proyecto_FinalDataSet2();
-            this.proyectoFinalDataSet2BindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.empleadoBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
-            this.empleadoTableAdapter1 = new Capa_Presentacion.Proyecto_FinalDataSet2TableAdapters.EmpleadoTableAdapter();
             this.empleadoIDDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.cargoIDDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.empleadoNombresDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -87,17 +83,21 @@
             this.estadoCIDDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.sexoIDDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.empleadoSectorDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.empleadoBindingSource2 = new System.Windows.Forms.BindingSource(this.components);
             this.empleadoBindingSource3 = new System.Windows.Forms.BindingSource(this.components);
+            this.proyecto_FinalDataSet2 = new Capa_Presentacion.Proyecto_FinalDataSet2();
+            this.proyectoFinalDataSet2BindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.empleadoBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
+            this.empleadoTableAdapter1 = new Capa_Presentacion.Proyecto_FinalDataSet2TableAdapters.EmpleadoTableAdapter();
+            this.empleadoBindingSource2 = new System.Windows.Forms.BindingSource(this.components);
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.empleadoBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.proyecto_FinalDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.DGVEmpleado)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.empleadoBindingSource3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.proyecto_FinalDataSet2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.proyectoFinalDataSet2BindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.empleadoBindingSource1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.empleadoBindingSource2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.empleadoBindingSource3)).BeginInit();
             this.SuspendLayout();
             // 
             // LbEmpApellidos
@@ -346,6 +346,117 @@
             this.DGVEmpleado.DataSource = this.empleadoBindingSource3;
             resources.ApplyResources(this.DGVEmpleado, "DGVEmpleado");
             this.DGVEmpleado.Name = "DGVEmpleado";
+            this.DGVEmpleado.ReadOnly = true;
+            // 
+            // empleadoIDDataGridViewTextBoxColumn
+            // 
+            this.empleadoIDDataGridViewTextBoxColumn.DataPropertyName = "Empleado_ID";
+            resources.ApplyResources(this.empleadoIDDataGridViewTextBoxColumn, "empleadoIDDataGridViewTextBoxColumn");
+            this.empleadoIDDataGridViewTextBoxColumn.Name = "empleadoIDDataGridViewTextBoxColumn";
+            this.empleadoIDDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // cargoIDDataGridViewTextBoxColumn
+            // 
+            this.cargoIDDataGridViewTextBoxColumn.DataPropertyName = "Cargo_ID";
+            resources.ApplyResources(this.cargoIDDataGridViewTextBoxColumn, "cargoIDDataGridViewTextBoxColumn");
+            this.cargoIDDataGridViewTextBoxColumn.Name = "cargoIDDataGridViewTextBoxColumn";
+            this.cargoIDDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // empleadoNombresDataGridViewTextBoxColumn
+            // 
+            this.empleadoNombresDataGridViewTextBoxColumn.DataPropertyName = "Empleado_Nombres";
+            resources.ApplyResources(this.empleadoNombresDataGridViewTextBoxColumn, "empleadoNombresDataGridViewTextBoxColumn");
+            this.empleadoNombresDataGridViewTextBoxColumn.Name = "empleadoNombresDataGridViewTextBoxColumn";
+            this.empleadoNombresDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // empleadoApellidosDataGridViewTextBoxColumn
+            // 
+            this.empleadoApellidosDataGridViewTextBoxColumn.DataPropertyName = "Empleado_Apellidos";
+            resources.ApplyResources(this.empleadoApellidosDataGridViewTextBoxColumn, "empleadoApellidosDataGridViewTextBoxColumn");
+            this.empleadoApellidosDataGridViewTextBoxColumn.Name = "empleadoApellidosDataGridViewTextBoxColumn";
+            this.empleadoApellidosDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // empleadoTelefonoDataGridViewTextBoxColumn
+            // 
+            this.empleadoTelefonoDataGridViewTextBoxColumn.DataPropertyName = "Empleado_Telefono";
+            resources.ApplyResources(this.empleadoTelefonoDataGridViewTextBoxColumn, "empleadoTelefonoDataGridViewTextBoxColumn");
+            this.empleadoTelefonoDataGridViewTextBoxColumn.Name = "empleadoTelefonoDataGridViewTextBoxColumn";
+            this.empleadoTelefonoDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // empleadoCelularDataGridViewTextBoxColumn
+            // 
+            this.empleadoCelularDataGridViewTextBoxColumn.DataPropertyName = "Empleado_Celular";
+            resources.ApplyResources(this.empleadoCelularDataGridViewTextBoxColumn, "empleadoCelularDataGridViewTextBoxColumn");
+            this.empleadoCelularDataGridViewTextBoxColumn.Name = "empleadoCelularDataGridViewTextBoxColumn";
+            this.empleadoCelularDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // empleadoDireccionDataGridViewTextBoxColumn
+            // 
+            this.empleadoDireccionDataGridViewTextBoxColumn.DataPropertyName = "Empleado_Direccion";
+            resources.ApplyResources(this.empleadoDireccionDataGridViewTextBoxColumn, "empleadoDireccionDataGridViewTextBoxColumn");
+            this.empleadoDireccionDataGridViewTextBoxColumn.Name = "empleadoDireccionDataGridViewTextBoxColumn";
+            this.empleadoDireccionDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // empleadoEmailDataGridViewTextBoxColumn
+            // 
+            this.empleadoEmailDataGridViewTextBoxColumn.DataPropertyName = "Empleado_Email";
+            resources.ApplyResources(this.empleadoEmailDataGridViewTextBoxColumn, "empleadoEmailDataGridViewTextBoxColumn");
+            this.empleadoEmailDataGridViewTextBoxColumn.Name = "empleadoEmailDataGridViewTextBoxColumn";
+            this.empleadoEmailDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // empleadoCedulaDataGridViewTextBoxColumn
+            // 
+            this.empleadoCedulaDataGridViewTextBoxColumn.DataPropertyName = "Empleado_Cedula";
+            resources.ApplyResources(this.empleadoCedulaDataGridViewTextBoxColumn, "empleadoCedulaDataGridViewTextBoxColumn");
+            this.empleadoCedulaDataGridViewTextBoxColumn.Name = "empleadoCedulaDataGridViewTextBoxColumn";
+            this.empleadoCedulaDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // empleadoActivoDataGridViewCheckBoxColumn
+            // 
+            this.empleadoActivoDataGridViewCheckBoxColumn.DataPropertyName = "Empleado_Activo";
+            resources.ApplyResources(this.empleadoActivoDataGridViewCheckBoxColumn, "empleadoActivoDataGridViewCheckBoxColumn");
+            this.empleadoActivoDataGridViewCheckBoxColumn.Name = "empleadoActivoDataGridViewCheckBoxColumn";
+            this.empleadoActivoDataGridViewCheckBoxColumn.ReadOnly = true;
+            // 
+            // muIDDataGridViewTextBoxColumn
+            // 
+            this.muIDDataGridViewTextBoxColumn.DataPropertyName = "Mu_ID";
+            resources.ApplyResources(this.muIDDataGridViewTextBoxColumn, "muIDDataGridViewTextBoxColumn");
+            this.muIDDataGridViewTextBoxColumn.Name = "muIDDataGridViewTextBoxColumn";
+            this.muIDDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // empleadoFechaNacimientoDataGridViewTextBoxColumn
+            // 
+            this.empleadoFechaNacimientoDataGridViewTextBoxColumn.DataPropertyName = "Empleado_Fecha_Nacimiento";
+            resources.ApplyResources(this.empleadoFechaNacimientoDataGridViewTextBoxColumn, "empleadoFechaNacimientoDataGridViewTextBoxColumn");
+            this.empleadoFechaNacimientoDataGridViewTextBoxColumn.Name = "empleadoFechaNacimientoDataGridViewTextBoxColumn";
+            this.empleadoFechaNacimientoDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // estadoCIDDataGridViewTextBoxColumn
+            // 
+            this.estadoCIDDataGridViewTextBoxColumn.DataPropertyName = "EstadoC_ID";
+            resources.ApplyResources(this.estadoCIDDataGridViewTextBoxColumn, "estadoCIDDataGridViewTextBoxColumn");
+            this.estadoCIDDataGridViewTextBoxColumn.Name = "estadoCIDDataGridViewTextBoxColumn";
+            this.estadoCIDDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // sexoIDDataGridViewTextBoxColumn
+            // 
+            this.sexoIDDataGridViewTextBoxColumn.DataPropertyName = "Sexo_ID";
+            resources.ApplyResources(this.sexoIDDataGridViewTextBoxColumn, "sexoIDDataGridViewTextBoxColumn");
+            this.sexoIDDataGridViewTextBoxColumn.Name = "sexoIDDataGridViewTextBoxColumn";
+            this.sexoIDDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // empleadoSectorDataGridViewTextBoxColumn
+            // 
+            this.empleadoSectorDataGridViewTextBoxColumn.DataPropertyName = "Empleado_Sector";
+            resources.ApplyResources(this.empleadoSectorDataGridViewTextBoxColumn, "empleadoSectorDataGridViewTextBoxColumn");
+            this.empleadoSectorDataGridViewTextBoxColumn.Name = "empleadoSectorDataGridViewTextBoxColumn";
+            this.empleadoSectorDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // empleadoBindingSource3
+            // 
+            this.empleadoBindingSource3.DataMember = "Empleado";
+            this.empleadoBindingSource3.DataSource = this.proyecto_FinalDataSet2;
             // 
             // proyecto_FinalDataSet2
             // 
@@ -366,106 +477,10 @@
             // 
             this.empleadoTableAdapter1.ClearBeforeFill = true;
             // 
-            // empleadoIDDataGridViewTextBoxColumn
-            // 
-            this.empleadoIDDataGridViewTextBoxColumn.DataPropertyName = "Empleado_ID";
-            resources.ApplyResources(this.empleadoIDDataGridViewTextBoxColumn, "empleadoIDDataGridViewTextBoxColumn");
-            this.empleadoIDDataGridViewTextBoxColumn.Name = "empleadoIDDataGridViewTextBoxColumn";
-            this.empleadoIDDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // cargoIDDataGridViewTextBoxColumn
-            // 
-            this.cargoIDDataGridViewTextBoxColumn.DataPropertyName = "Cargo_ID";
-            resources.ApplyResources(this.cargoIDDataGridViewTextBoxColumn, "cargoIDDataGridViewTextBoxColumn");
-            this.cargoIDDataGridViewTextBoxColumn.Name = "cargoIDDataGridViewTextBoxColumn";
-            // 
-            // empleadoNombresDataGridViewTextBoxColumn
-            // 
-            this.empleadoNombresDataGridViewTextBoxColumn.DataPropertyName = "Empleado_Nombres";
-            resources.ApplyResources(this.empleadoNombresDataGridViewTextBoxColumn, "empleadoNombresDataGridViewTextBoxColumn");
-            this.empleadoNombresDataGridViewTextBoxColumn.Name = "empleadoNombresDataGridViewTextBoxColumn";
-            // 
-            // empleadoApellidosDataGridViewTextBoxColumn
-            // 
-            this.empleadoApellidosDataGridViewTextBoxColumn.DataPropertyName = "Empleado_Apellidos";
-            resources.ApplyResources(this.empleadoApellidosDataGridViewTextBoxColumn, "empleadoApellidosDataGridViewTextBoxColumn");
-            this.empleadoApellidosDataGridViewTextBoxColumn.Name = "empleadoApellidosDataGridViewTextBoxColumn";
-            // 
-            // empleadoTelefonoDataGridViewTextBoxColumn
-            // 
-            this.empleadoTelefonoDataGridViewTextBoxColumn.DataPropertyName = "Empleado_Telefono";
-            resources.ApplyResources(this.empleadoTelefonoDataGridViewTextBoxColumn, "empleadoTelefonoDataGridViewTextBoxColumn");
-            this.empleadoTelefonoDataGridViewTextBoxColumn.Name = "empleadoTelefonoDataGridViewTextBoxColumn";
-            // 
-            // empleadoCelularDataGridViewTextBoxColumn
-            // 
-            this.empleadoCelularDataGridViewTextBoxColumn.DataPropertyName = "Empleado_Celular";
-            resources.ApplyResources(this.empleadoCelularDataGridViewTextBoxColumn, "empleadoCelularDataGridViewTextBoxColumn");
-            this.empleadoCelularDataGridViewTextBoxColumn.Name = "empleadoCelularDataGridViewTextBoxColumn";
-            // 
-            // empleadoDireccionDataGridViewTextBoxColumn
-            // 
-            this.empleadoDireccionDataGridViewTextBoxColumn.DataPropertyName = "Empleado_Direccion";
-            resources.ApplyResources(this.empleadoDireccionDataGridViewTextBoxColumn, "empleadoDireccionDataGridViewTextBoxColumn");
-            this.empleadoDireccionDataGridViewTextBoxColumn.Name = "empleadoDireccionDataGridViewTextBoxColumn";
-            // 
-            // empleadoEmailDataGridViewTextBoxColumn
-            // 
-            this.empleadoEmailDataGridViewTextBoxColumn.DataPropertyName = "Empleado_Email";
-            resources.ApplyResources(this.empleadoEmailDataGridViewTextBoxColumn, "empleadoEmailDataGridViewTextBoxColumn");
-            this.empleadoEmailDataGridViewTextBoxColumn.Name = "empleadoEmailDataGridViewTextBoxColumn";
-            // 
-            // empleadoCedulaDataGridViewTextBoxColumn
-            // 
-            this.empleadoCedulaDataGridViewTextBoxColumn.DataPropertyName = "Empleado_Cedula";
-            resources.ApplyResources(this.empleadoCedulaDataGridViewTextBoxColumn, "empleadoCedulaDataGridViewTextBoxColumn");
-            this.empleadoCedulaDataGridViewTextBoxColumn.Name = "empleadoCedulaDataGridViewTextBoxColumn";
-            // 
-            // empleadoActivoDataGridViewCheckBoxColumn
-            // 
-            this.empleadoActivoDataGridViewCheckBoxColumn.DataPropertyName = "Empleado_Activo";
-            resources.ApplyResources(this.empleadoActivoDataGridViewCheckBoxColumn, "empleadoActivoDataGridViewCheckBoxColumn");
-            this.empleadoActivoDataGridViewCheckBoxColumn.Name = "empleadoActivoDataGridViewCheckBoxColumn";
-            // 
-            // muIDDataGridViewTextBoxColumn
-            // 
-            this.muIDDataGridViewTextBoxColumn.DataPropertyName = "Mu_ID";
-            resources.ApplyResources(this.muIDDataGridViewTextBoxColumn, "muIDDataGridViewTextBoxColumn");
-            this.muIDDataGridViewTextBoxColumn.Name = "muIDDataGridViewTextBoxColumn";
-            // 
-            // empleadoFechaNacimientoDataGridViewTextBoxColumn
-            // 
-            this.empleadoFechaNacimientoDataGridViewTextBoxColumn.DataPropertyName = "Empleado_Fecha_Nacimiento";
-            resources.ApplyResources(this.empleadoFechaNacimientoDataGridViewTextBoxColumn, "empleadoFechaNacimientoDataGridViewTextBoxColumn");
-            this.empleadoFechaNacimientoDataGridViewTextBoxColumn.Name = "empleadoFechaNacimientoDataGridViewTextBoxColumn";
-            // 
-            // estadoCIDDataGridViewTextBoxColumn
-            // 
-            this.estadoCIDDataGridViewTextBoxColumn.DataPropertyName = "EstadoC_ID";
-            resources.ApplyResources(this.estadoCIDDataGridViewTextBoxColumn, "estadoCIDDataGridViewTextBoxColumn");
-            this.estadoCIDDataGridViewTextBoxColumn.Name = "estadoCIDDataGridViewTextBoxColumn";
-            // 
-            // sexoIDDataGridViewTextBoxColumn
-            // 
-            this.sexoIDDataGridViewTextBoxColumn.DataPropertyName = "Sexo_ID";
-            resources.ApplyResources(this.sexoIDDataGridViewTextBoxColumn, "sexoIDDataGridViewTextBoxColumn");
-            this.sexoIDDataGridViewTextBoxColumn.Name = "sexoIDDataGridViewTextBoxColumn";
-            // 
-            // empleadoSectorDataGridViewTextBoxColumn
-            // 
-            this.empleadoSectorDataGridViewTextBoxColumn.DataPropertyName = "Empleado_Sector";
-            resources.ApplyResources(this.empleadoSectorDataGridViewTextBoxColumn, "empleadoSectorDataGridViewTextBoxColumn");
-            this.empleadoSectorDataGridViewTextBoxColumn.Name = "empleadoSectorDataGridViewTextBoxColumn";
-            // 
             // empleadoBindingSource2
             // 
             this.empleadoBindingSource2.DataMember = "Empleado";
             this.empleadoBindingSource2.DataSource = this.proyectoFinalDataSet2BindingSource;
-            // 
-            // empleadoBindingSource3
-            // 
-            this.empleadoBindingSource3.DataMember = "Empleado";
-            this.empleadoBindingSource3.DataSource = this.proyecto_FinalDataSet2;
             // 
             // Registro_Empleados
             // 
@@ -507,11 +522,11 @@
             ((System.ComponentModel.ISupportInitialize)(this.empleadoBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.proyecto_FinalDataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.DGVEmpleado)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.empleadoBindingSource3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.proyecto_FinalDataSet2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.proyectoFinalDataSet2BindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.empleadoBindingSource1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.empleadoBindingSource2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.empleadoBindingSource3)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
