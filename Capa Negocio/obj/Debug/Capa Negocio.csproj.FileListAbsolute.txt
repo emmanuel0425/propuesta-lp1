@@ -1,0 +1,6 @@
+C:\Users\maste\source\repos\La Propuesta\Capa Negocio\bin\Debug\Capa Negocio.dll
+C:\Users\maste\source\repos\La Propuesta\Capa Negocio\bin\Debug\Capa Negocio.pdb
+C:\Users\maste\source\repos\La Propuesta\Capa Negocio\obj\Debug\Capa Negocio.csproj.CoreCompileInputs.cache
+C:\Users\maste\source\repos\La Propuesta\Capa Negocio\obj\Debug\Capa Negocio.dll
+C:\Users\maste\source\repos\La Propuesta\Capa Negocio\obj\Debug\Capa Negocio.pdb
+C:\Users\maste\source\repos\La Propuesta\Capa Negocio\obj\Debug\Capa Negocio.csprojAssemblyReference.cache

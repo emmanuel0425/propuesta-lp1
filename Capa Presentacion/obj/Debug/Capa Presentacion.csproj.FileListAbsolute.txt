@@ -1,0 +1,23 @@
+C:\Users\maste\source\repos\La Propuesta\Capa Presentacion\bin\Debug\Capa Presentacion.exe.config
+C:\Users\maste\source\repos\La Propuesta\Capa Presentacion\bin\Debug\Capa Presentacion.exe
+C:\Users\maste\source\repos\La Propuesta\Capa Presentacion\bin\Debug\Capa Presentacion.pdb
+C:\Users\maste\source\repos\La Propuesta\Capa Presentacion\bin\Debug\es-DO\Capa Presentacion.resources.dll
+C:\Users\maste\source\repos\La Propuesta\Capa Presentacion\bin\Debug\Capa Negocio.dll
+C:\Users\maste\source\repos\La Propuesta\Capa Presentacion\bin\Debug\Capa Negocio.pdb
+C:\Users\maste\source\repos\La Propuesta\Capa Presentacion\obj\Debug\Capa Presentacion.csprojAssemblyReference.cache
+C:\Users\maste\source\repos\La Propuesta\Capa Presentacion\obj\Debug\Capa_Presentacion.Login.resources
+C:\Users\maste\source\repos\La Propuesta\Capa Presentacion\obj\Debug\Capa_Presentacion.Producto_Registro.resources
+C:\Users\maste\source\repos\La Propuesta\Capa Presentacion\obj\Debug\Capa_Presentacion.Properties.Resources.resources
+C:\Users\maste\source\repos\La Propuesta\Capa Presentacion\obj\Debug\Capa_Presentacion.Registro_Clientes.resources
+C:\Users\maste\source\repos\La Propuesta\Capa Presentacion\obj\Debug\Capa_Presentacion.Registro_Empleados.resources
+C:\Users\maste\source\repos\La Propuesta\Capa Presentacion\obj\Debug\Capa_Presentacion.Registro_Proveedores.resources
+C:\Users\maste\source\repos\La Propuesta\Capa Presentacion\obj\Debug\Capa_Presentacion.Registro_Empleados.es-DO.resources
+C:\Users\maste\source\repos\La Propuesta\Capa Presentacion\obj\Debug\Capa Presentacion.csproj.GenerateResource.cache
+C:\Users\maste\source\repos\La Propuesta\Capa Presentacion\obj\Debug\Capa Presentacion.csproj.CoreCompileInputs.cache
+C:\Users\maste\source\repos\La Propuesta\Capa Presentacion\obj\Debug\es-DO\Capa Presentacion.resources.dll
+C:\Users\maste\source\repos\La Propuesta\Capa Presentacion\obj\Debug\Capa Presentacion.csproj.CopyComplete
+C:\Users\maste\source\repos\La Propuesta\Capa Presentacion\obj\Debug\Capa Presentacion.exe
+C:\Users\maste\source\repos\La Propuesta\Capa Presentacion\obj\Debug\Capa Presentacion.pdb
+C:\Users\maste\source\repos\La Propuesta\Capa Presentacion\obj\Debug\Capa_Presentacion.Busquedad_Empleados.resources
+C:\Users\maste\source\repos\La Propuesta\Capa Presentacion\obj\Debug\Capa_Presentacion.MainForm.resources
+C:\Users\maste\source\repos\La Propuesta\Capa Presentacion\obj\Debug\Capa_Presentacion.UserControl1.resources
