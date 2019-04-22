@@ -347,6 +347,7 @@
             resources.ApplyResources(this.DGVEmpleado, "DGVEmpleado");
             this.DGVEmpleado.Name = "DGVEmpleado";
             this.DGVEmpleado.ReadOnly = true;
+            this.DGVEmpleado.DoubleClick += new System.EventHandler(this.DGVEmpleado_DoubleClick);
             // 
             // empleadoIDDataGridViewTextBoxColumn
             // 

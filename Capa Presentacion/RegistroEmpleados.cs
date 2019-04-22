@@ -302,5 +302,10 @@ namespace Capa_Presentacion
 
 
         }
+
+        private void DGVEmpleado_DoubleClick(object sender, EventArgs e)
+        {
+
+        }
     }
 }
