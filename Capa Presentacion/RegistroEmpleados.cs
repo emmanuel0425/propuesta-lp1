@@ -322,7 +322,7 @@ namespace Capa_Presentacion
                 DTPFechaNac.Text = DGVEmpleado.Rows[DGVEmpleado.CurrentRow.Index].Cells["empleadoFechaNacimientoDataGridViewTextBoxColumn"].Value.ToString();
                 CBCargo.SelectedText = DGVEmpleado.Rows[DGVEmpleado.CurrentRow.Index].Cells["cargoIDDataGridViewTextBoxColumn"].Value.ToString();
                 CBEmpleadoSexo.SelectedText = DGVEmpleado.Rows[DGVEmpleado.CurrentRow.Index].Cells["sexoIDDataGridViewTextBoxColumn"].Value.ToString();
-                CBEmpleadoMunicipio.SelectedText = DGVEmpleado.Rows[DGVEmpleado.CurrentRow.Index].Cells["empleadoIDDataGridViewTextBoxColumn"].Value.ToString();
+               // CBEmpleadoMunicipio.SelectedText = DGVEmpleado.Rows[DGVEmpleado.CurrentRow.Index].Cells["empleadoIDDataGridViewTextBoxColumn"].Value.ToString();
                 CHBActivo.Checked = Convert.ToBoolean(DGVEmpleado.Rows[DGVEmpleado.CurrentRow.Index].Cells["empleadoActivoDataGridViewCheckBoxColumn"].Value);
             
             }
