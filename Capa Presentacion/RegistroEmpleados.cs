@@ -274,13 +274,13 @@ namespace Capa_Presentacion
             bool ResultadoOk = false;
             string MensajeError = "";
 
-            if (string.IsNullOrEmpty(TBEmpleadoID.Text.ToString()))
+            if (string.IsNullOrEmpty(TBEmpleadoID.Text.ToString().Trim()))
             {
                 MessageBox.Show("Advertencia", "No ha elegido ningun Registro para eliminar", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
             else
             {
-                objEmpleado.Empleado_ID = Convert.ToInt32(TBEmpleadoID.Text.ToString());
+                objEmpleado.Empleado_ID = Convert.ToInt32(TBEmpleadoID.Text.ToString().Trim());
                 objEmpleado.EliminarPaciente(objEmpleado.Empleado_ID,ref ResultadoOk, ref MensajeError);
             }
 
