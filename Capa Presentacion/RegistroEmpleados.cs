@@ -280,7 +280,7 @@ namespace Capa_Presentacion
             }
             else
             {
-                objEmpleado.Empleado_ID = Convert.ToInt32(TBEmpleadoID.Text);
+                objEmpleado.Empleado_ID = Convert.ToInt32(TBEmpleadoID.Text.ToString());
                 objEmpleado.EliminarPaciente(objEmpleado.Empleado_ID,ref ResultadoOk, ref MensajeError);
             }
 
