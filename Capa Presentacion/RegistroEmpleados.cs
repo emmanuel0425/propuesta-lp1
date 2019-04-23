@@ -345,7 +345,7 @@ namespace Capa_Presentacion
             try
             {
 
-                TBEmpleadoID.SelectedText = DGVEmpleado.Rows[DGVEmpleado.CurrentRow.Index].Cells["empleadoIDDataGridViewTextBoxColumn"].Value.ToString();
+                TBEmpleadoID.Text = DGVEmpleado.Rows[DGVEmpleado.CurrentRow.Index].Cells["empleadoIDDataGridViewTextBoxColumn"].Value.ToString();
                 TBEmpleadoNombres.Text = DGVEmpleado.Rows[DGVEmpleado.CurrentRow.Index].Cells["empleadoNombresDataGridViewTextBoxColumn"].Value.ToString();
                 TBEmpleadoApellidos.Text = DGVEmpleado.Rows[DGVEmpleado.CurrentRow.Index].Cells["empleadoApellidosDataGridViewTextBoxColumn"].Value.ToString();
                 TBCedula.Text = DGVEmpleado.Rows[DGVEmpleado.CurrentRow.Index].Cells["empleadoCedulaDataGridViewTextBoxColumn"].Value.ToString();
