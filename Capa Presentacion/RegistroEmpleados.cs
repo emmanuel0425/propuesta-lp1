@@ -374,5 +374,10 @@ namespace Capa_Presentacion
         {
             this.Close();
         }
+
+        private void BTNNuevo_Click(object sender, EventArgs e)
+        {
+            CEfecto.LimpiarForm(this);
+        }
     }
 }

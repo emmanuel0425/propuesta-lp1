@@ -91,6 +91,7 @@
             this.empleadoBindingSource2 = new System.Windows.Forms.BindingSource(this.components);
             this.TBEmpleadoID = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
+            this.BTNNuevo = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.empleadoBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.proyecto_FinalDataSet)).BeginInit();
@@ -501,12 +502,21 @@
             resources.ApplyResources(this.label3, "label3");
             this.label3.Name = "label3";
             // 
+            // BTNNuevo
+            // 
+            this.BTNNuevo.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            resources.ApplyResources(this.BTNNuevo, "BTNNuevo");
+            this.BTNNuevo.Name = "BTNNuevo";
+            this.BTNNuevo.UseVisualStyleBackColor = false;
+            this.BTNNuevo.Click += new System.EventHandler(this.BTNNuevo_Click);
+            // 
             // Registro_Empleados
             // 
             this.AllowDrop = true;
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.Controls.Add(this.BTNNuevo);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.TBEmpleadoID);
             this.Controls.Add(this.DGVEmpleado);
@@ -616,5 +626,6 @@
         private System.Windows.Forms.BindingSource empleadoBindingSource2;
         private System.Windows.Forms.TextBox TBEmpleadoID;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Button BTNNuevo;
     }
 }
