@@ -36,6 +36,29 @@ namespace Capa_Presentacion.Helper
                         }
                     }//End foreach editable
                 }
+                if (Item is GroupBox)
+                {
+                    GroupBox ObjConatiner = (GroupBox)Item;
+
+                    foreach (Control editable in ObjConatiner.Controls)
+                    {
+                        if (editable is TextBoxBase)
+                        {
+                            TextBoxBase objText = (TextBoxBase)editable;
+                            objText.Clear();
+                        }
+                        if (editable is ListControl)
+                        {
+                            ListControl objListControl = (ListControl)editable;
+                            objListControl.SelectedIndex = 0;
+                        }
+                        if (editable is ButtonBase)
+                        {
+                            ButtonBase buttonBase = (ButtonBase)editable;
+                            buttonBase.Refresh();
+                        }
+                    }//End foreach editable
+                }
             }//End foreach of object
         }//End Met
     }
