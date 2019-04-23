@@ -18,7 +18,7 @@ namespace Capa_Presentacion
 {
     public partial class Registro_Empleados : Form
     {
-        int Empleado_ID = 0;
+    
 
         public Registro_Empleados()
         {
@@ -215,101 +215,104 @@ namespace Capa_Presentacion
         private void BtnActualizarRegistroEmpleado_Click(object sender, EventArgs e)
         {
             //Update Record  
-            if (TBEmpleadoNombres.Text != "" && TBEmpleadoApellidos.Text != "" && CBEmpleadoSexo.Text != "" && DTPFechaNac.Text != "" && TBCedula.Text != "" &&
-                TBCelular.Text != "" && TBTelefono.Text != "" && TBEmpleadoEmail.Text != "" && CBEmpleadoEstadoCivil.Text != "" && CBCargo.Text != "" &&
-                TBEmpleadoCalle.Text != "" && TBSector.Text != "" && CBEmpleadoProvincia.Text != "" && CBEmpleadoMunicipio.Text != "")
-            {
-                SqlConnection con = new SqlConnection("Data Source =.; Initial Catalog = Proyecto Final; Integrated Security = True;");
-                SqlCommand cmd = new SqlCommand();
-                    cmd = new SqlCommand("UPDATE Empleado SET Empleado_Nombre = @Empleado_Nombres, Empleado_Apellidos = @Empleado_Apellidos, " +
-                    "Empleado_Telefono = @Empleado_Telefono, Empleado_Celular = @Empleado_Celular, Empleado_Email = @Empleado_Email" +
-                    "Empleado_Cedula = @Empleado_Cedula, Sexo_ID = @Sexo_ID, Empleado_FechaNac = @Empleado_FechaNac, EstadoC_ID = @EstadoC_ID" +
-                    "Empleado_Direccion = @Empleado_Direccion, Municipio_ID = @Municipio_ID, Cargo_ID = @Cargo_ID, Empleado_Sector = @Empleado_Sector WHERE Empleado_ID = @Empleado_ID", con);
-                con.Open();
-                cmd.Parameters.AddWithValue("@Empleado_ID", Empleado_ID);
-                cmd.Parameters.AddWithValue("@Empleado_Nombres", TBEmpleadoNombres.Text);
-                cmd.Parameters.AddWithValue("@Empleado_Apellidos", TBEmpleadoApellidos.Text);
-                cmd.Parameters.AddWithValue("@Empleado_Telefono", TBTelefono.Text);
-                cmd.Parameters.AddWithValue("@Empleado_Celular", TBCelular.Text);
-                cmd.Parameters.AddWithValue("@Empleado_Email", TBEmpleadoEmail.Text);
-                cmd.Parameters.AddWithValue("@Empleado_Cedula", TBCedula.Text);
-                cmd.Parameters.AddWithValue("@Sexo_ID", CBEmpleadoSexo);
-                cmd.Parameters.AddWithValue("@Empleado_FechaNac", DTPFechaNac.Text);
-                cmd.Parameters.AddWithValue("@EstadoC_ID", CBEmpleadoEstadoCivil);
-                cmd.Parameters.AddWithValue("@Empleado_Direccion", TBEmpleadoCalle.Text);
-                //cmd.Parameters.AddWithValue("@Empleado_Activo", objEmpleado.Activo);
-                cmd.Parameters.AddWithValue("@Municipio_ID", CBEmpleadoMunicipio);
-                cmd.Parameters.AddWithValue("@Cargo_ID", CBCargo);
-                cmd.Parameters.AddWithValue("@Empleado_Sector", TBSector.Text);
-               // cmd.ExecuteNonQuery();
-                MessageBox.Show("Record Updated Successfully");
-                con.Close();
-                DisplayData();
-                ClearData();
-            }
-            else
-            {
-                MessageBox.Show("Please Select Record to Update");
-            }
+            //    if (TBEmpleadoNombres.Text != "" && TBEmpleadoApellidos.Text != "" && CBEmpleadoSexo.Text != "" && DTPFechaNac.Text != "" && TBCedula.Text != "" &&
+            //        TBCelular.Text != "" && TBTelefono.Text != "" && TBEmpleadoEmail.Text != "" && CBEmpleadoEstadoCivil.Text != "" && CBCargo.Text != "" &&
+            //        TBEmpleadoCalle.Text != "" && TBSector.Text != "" && CBEmpleadoProvincia.Text != "" && CBEmpleadoMunicipio.Text != "")
+            //    {
+            //        SqlConnection con = new SqlConnection("Data Source =.; Initial Catalog = Proyecto Final; Integrated Security = True;");
+            //        SqlCommand cmd = new SqlCommand();
+            //            cmd = new SqlCommand("UPDATE Empleado SET Empleado_Nombre = @Empleado_Nombres, Empleado_Apellidos = @Empleado_Apellidos, " +
+            //            "Empleado_Telefono = @Empleado_Telefono, Empleado_Celular = @Empleado_Celular, Empleado_Email = @Empleado_Email" +
+            //            "Empleado_Cedula = @Empleado_Cedula, Sexo_ID = @Sexo_ID, Empleado_FechaNac = @Empleado_FechaNac, EstadoC_ID = @EstadoC_ID" +
+            //            "Empleado_Direccion = @Empleado_Direccion, Municipio_ID = @Municipio_ID, Cargo_ID = @Cargo_ID, Empleado_Sector = @Empleado_Sector WHERE Empleado_ID = @Empleado_ID", con);
+            //        con.Open();
+            //        cmd.Parameters.AddWithValue("@Empleado_ID", Empleado_ID);
+            //        cmd.Parameters.AddWithValue("@Empleado_Nombres", TBEmpleadoNombres.Text);
+            //        cmd.Parameters.AddWithValue("@Empleado_Apellidos", TBEmpleadoApellidos.Text);
+            //        cmd.Parameters.AddWithValue("@Empleado_Telefono", TBTelefono.Text);
+            //        cmd.Parameters.AddWithValue("@Empleado_Celular", TBCelular.Text);
+            //        cmd.Parameters.AddWithValue("@Empleado_Email", TBEmpleadoEmail.Text);
+            //        cmd.Parameters.AddWithValue("@Empleado_Cedula", TBCedula.Text);
+            //        cmd.Parameters.AddWithValue("@Sexo_ID", CBEmpleadoSexo);
+            //        cmd.Parameters.AddWithValue("@Empleado_FechaNac", DTPFechaNac.Text);
+            //        cmd.Parameters.AddWithValue("@EstadoC_ID", CBEmpleadoEstadoCivil);
+            //        cmd.Parameters.AddWithValue("@Empleado_Direccion", TBEmpleadoCalle.Text);
+            //        //cmd.Parameters.AddWithValue("@Empleado_Activo", objEmpleado.Activo);
+            //        cmd.Parameters.AddWithValue("@Municipio_ID", CBEmpleadoMunicipio);
+            //        cmd.Parameters.AddWithValue("@Cargo_ID", CBCargo);
+            //        cmd.Parameters.AddWithValue("@Empleado_Sector", TBSector.Text);
+            //       // cmd.ExecuteNonQuery();
+            //        MessageBox.Show("Record Updated Successfully");
+            //        con.Close();
+            //        DisplayData();
+            //        ClearData();
+            //    }
+            //    else
+            //    {
+            //        MessageBox.Show("Please Select Record to Update");
+            //    }
 
+            Registrar();
+            DisplayData();
+            
 
         }
 
         private void BtnEliminarRegistroEmpleado_Click(object sender, EventArgs e)
         {
-           
+            Registrar();
         }
         //Clear Data  
-        private void ClearData()
-        {
-            TBEmpleadoNombres.Text = "";
-            TBEmpleadoApellidos.Text = "";
-            CBEmpleadoSexo.Text = "";
-            DTPFechaNac.Text = "";
-            TBCedula.Text = "";
-            TBCelular.Text = "";
-            TBTelefono.Text = "";
-            TBEmpleadoEmail.Text = "";
-            CBEmpleadoEstadoCivil.Text = "";
-            CBCargo.Text = "";
-            //CHBActivo.Text = "";
-            TBEmpleadoCalle.Text = "";
-            TBSector.Text = "";
-            CBEmpleadoProvincia.Text = "";
-            CBEmpleadoMunicipio.Text = "";
-            Empleado_ID = 0;
+        //private void ClearData()
+        //{
+        //    TBEmpleadoNombres.Text = "";
+        //    TBEmpleadoApellidos.Text = "";
+        //    CBEmpleadoSexo.Text = "";
+        //    DTPFechaNac.Text = "";
+        //    TBCedula.Text = "";
+        //    TBCelular.Text = "";
+        //    TBTelefono.Text = "";
+        //    TBEmpleadoEmail.Text = "";
+        //    CBEmpleadoEstadoCivil.Text = "";
+        //    CBCargo.Text = "";
+        //    //CHBActivo.Text = "";
+        //    TBEmpleadoCalle.Text = "";
+        //    TBSector.Text = "";
+        //    CBEmpleadoProvincia.Text = "";
+        //    CBEmpleadoMunicipio.Text = "";
+        //    Empleado_ID = 0;
             
-        }
+        //}
         ////dataGridView1 RowHeaderMouseClick Event  
-        private void DGVEmpleado_RowHeaderMouseClick(object sender, DataGridViewCellMouseEventArgs e)
-        {
-            Empleado_ID = Convert.ToInt32(DGVEmpleado.Rows[e.RowIndex].Cells[0].Value.ToString());
-            TBEmpleadoNombres.Text = DGVEmpleado.Rows[e.RowIndex].Cells[1].Value.ToString();
-            TBEmpleadoApellidos.Text = DGVEmpleado.Rows[e.RowIndex].Cells[2].Value.ToString();
-            CBEmpleadoSexo.Text = DGVEmpleado.Rows[e.RowIndex].Cells[3].Value.ToString();
-            DTPFechaNac.Text = DGVEmpleado.Rows[e.RowIndex].Cells[4].Value.ToString();
-            TBCedula.Text = DGVEmpleado.Rows[e.RowIndex].Cells[5].Value.ToString();
-            TBCelular.Text = DGVEmpleado.Rows[e.RowIndex].Cells[6].Value.ToString();
-            TBTelefono.Text = DGVEmpleado.Rows[e.RowIndex].Cells[7].Value.ToString();
-            TBEmpleadoEmail.Text = DGVEmpleado.Rows[e.RowIndex].Cells[8].Value.ToString();
-            CBEmpleadoEstadoCivil.Text = DGVEmpleado.Rows[e.RowIndex].Cells[9].Value.ToString();
-            CBCargo.Text = DGVEmpleado.Rows[e.RowIndex].Cells[10].Value.ToString();
-            TBEmpleadoCalle.Text = DGVEmpleado.Rows[e.RowIndex].Cells[11].Value.ToString();
-            TBSector.Text = DGVEmpleado.Rows[e.RowIndex].Cells[12].Value.ToString();
-            CBEmpleadoProvincia.Text = DGVEmpleado.Rows[e.RowIndex].Cells[13].Value.ToString();
-            CBEmpleadoMunicipio.Text = DGVEmpleado.Rows[e.RowIndex].Cells[14].Value.ToString();
-            //CHBActivo.Text = DGVEmpleado.Rows[e.RowIndex].Cells[15].Value.ToString();
+        //private void DGVEmpleado_RowHeaderMouseClick(object sender, DataGridViewCellMouseEventArgs e)
+        //{
+        //    Empleado_ID = Convert.ToInt32(DGVEmpleado.Rows[e.RowIndex].Cells[0].Value.ToString());
+        //    TBEmpleadoNombres.Text = DGVEmpleado.Rows[e.RowIndex].Cells[1].Value.ToString();
+        //    TBEmpleadoApellidos.Text = DGVEmpleado.Rows[e.RowIndex].Cells[2].Value.ToString();
+        //    CBEmpleadoSexo.Text = DGVEmpleado.Rows[e.RowIndex].Cells[3].Value.ToString();
+        //    DTPFechaNac.Text = DGVEmpleado.Rows[e.RowIndex].Cells[4].Value.ToString();
+        //    TBCedula.Text = DGVEmpleado.Rows[e.RowIndex].Cells[5].Value.ToString();
+        //    TBCelular.Text = DGVEmpleado.Rows[e.RowIndex].Cells[6].Value.ToString();
+        //    TBTelefono.Text = DGVEmpleado.Rows[e.RowIndex].Cells[7].Value.ToString();
+        //    TBEmpleadoEmail.Text = DGVEmpleado.Rows[e.RowIndex].Cells[8].Value.ToString();
+        //    CBEmpleadoEstadoCivil.Text = DGVEmpleado.Rows[e.RowIndex].Cells[9].Value.ToString();
+        //    CBCargo.Text = DGVEmpleado.Rows[e.RowIndex].Cells[10].Value.ToString();
+        //    TBEmpleadoCalle.Text = DGVEmpleado.Rows[e.RowIndex].Cells[11].Value.ToString();
+        //    TBSector.Text = DGVEmpleado.Rows[e.RowIndex].Cells[12].Value.ToString();
+        //    CBEmpleadoProvincia.Text = DGVEmpleado.Rows[e.RowIndex].Cells[13].Value.ToString();
+        //    CBEmpleadoMunicipio.Text = DGVEmpleado.Rows[e.RowIndex].Cells[14].Value.ToString();
+        //    CHBActivo.Checked = Convert.ToBoolean(DGVEmpleado.Rows[e.RowIndex].Cells[15].Value.ToString());
 
 
-        }
+        //}
 
         private void DGVEmpleado_DoubleClick(object sender, EventArgs e)
         {
-            bool resultadoOK = true;
+            bool ResultadoOK = true;
             try
             {
 
-                TBEmpleadoID.Text = DGVEmpleado.Rows[DGVEmpleado.CurrentRow.Index].Cells["empleadoIDDataGridViewTextBoxColumn"].Value.ToString();
+                TBEmpleadoID.SelectedText = DGVEmpleado.Rows[DGVEmpleado.CurrentRow.Index].Cells["empleadoIDDataGridViewTextBoxColumn"].Value.ToString();
                 TBEmpleadoNombres.Text = DGVEmpleado.Rows[DGVEmpleado.CurrentRow.Index].Cells["empleadoNombresDataGridViewTextBoxColumn"].Value.ToString();
                 TBEmpleadoApellidos.Text = DGVEmpleado.Rows[DGVEmpleado.CurrentRow.Index].Cells["empleadoApellidosDataGridViewTextBoxColumn"].Value.ToString();
                 TBCedula.Text = DGVEmpleado.Rows[DGVEmpleado.CurrentRow.Index].Cells["empleadoCedulaDataGridViewTextBoxColumn"].Value.ToString();
@@ -318,17 +321,18 @@ namespace Capa_Presentacion
                 TBEmpleadoEmail.Text = DGVEmpleado.Rows[DGVEmpleado.CurrentRow.Index].Cells["empleadoEmailDataGridViewTextBoxColumn"].Value.ToString();
                 TBSector.Text = DGVEmpleado.Rows[DGVEmpleado.CurrentRow.Index].Cells["empleadoSectorDataGridViewTextBoxColumn"].Value.ToString();
                 TBEmpleadoCalle.Text = DGVEmpleado.Rows[DGVEmpleado.CurrentRow.Index].Cells["empleadoDireccionDataGridViewTextBoxColumn"].Value.ToString();
-
+                CBEmpleadoEstadoCivil.SelectedValue = DGVEmpleado.Rows[DGVEmpleado.CurrentRow.Index].Cells["estadoCIDDataGridViewTextBoxColumn"].Value.ToString();
                 DTPFechaNac.Text = DGVEmpleado.Rows[DGVEmpleado.CurrentRow.Index].Cells["empleadoFechaNacimientoDataGridViewTextBoxColumn"].Value.ToString();
-                CBCargo.SelectedText = DGVEmpleado.Rows[DGVEmpleado.CurrentRow.Index].Cells["cargoIDDataGridViewTextBoxColumn"].Value.ToString();
-                CBEmpleadoSexo.SelectedText = DGVEmpleado.Rows[DGVEmpleado.CurrentRow.Index].Cells["sexoIDDataGridViewTextBoxColumn"].Value.ToString();
-               // CBEmpleadoMunicipio.SelectedText = DGVEmpleado.Rows[DGVEmpleado.CurrentRow.Index].Cells["empleadoIDDataGridViewTextBoxColumn"].Value.ToString();
+                CBCargo.SelectedValue = DGVEmpleado.Rows[DGVEmpleado.CurrentRow.Index].Cells["cargoIDDataGridViewTextBoxColumn"].Value.ToString();
+                CBEmpleadoSexo.SelectedValue = DGVEmpleado.Rows[DGVEmpleado.CurrentRow.Index].Cells["sexoIDDataGridViewTextBoxColumn"].Value.ToString();
+                CBEmpleadoProvincia. SelectedValue = DGVEmpleado.Rows[DGVEmpleado.CurrentRow.Index].Cells["empleadoIDDataGridViewTextBoxColumn"].Value.ToString();
+                CBEmpleadoMunicipio.SelectedText  = DGVEmpleado.Rows[DGVEmpleado.CurrentRow.Index].Cells["muIDDataGridViewTextBoxColumn"].Value.ToString();
                 CHBActivo.Checked = Convert.ToBoolean(DGVEmpleado.Rows[DGVEmpleado.CurrentRow.Index].Cells["empleadoActivoDataGridViewCheckBoxColumn"].Value);
             
             }
             catch (Exception error)
             {
-                resultadoOK = false;
+                ResultadoOK = false;
                 MessageBox.Show(error.ToString());
             }
         }

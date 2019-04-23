@@ -328,6 +328,7 @@
             // DGVEmpleado
             // 
             this.DGVEmpleado.AutoGenerateColumns = false;
+            this.DGVEmpleado.BackgroundColor = System.Drawing.SystemColors.ActiveCaption;
             this.DGVEmpleado.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.DGVEmpleado.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.empleadoIDDataGridViewTextBoxColumn,
@@ -346,9 +347,12 @@
             this.sexoIDDataGridViewTextBoxColumn,
             this.empleadoSectorDataGridViewTextBoxColumn});
             this.DGVEmpleado.DataSource = this.empleadoBindingSource3;
+            this.DGVEmpleado.GridColor = System.Drawing.SystemColors.ActiveCaption;
             resources.ApplyResources(this.DGVEmpleado, "DGVEmpleado");
+            this.DGVEmpleado.MultiSelect = false;
             this.DGVEmpleado.Name = "DGVEmpleado";
             this.DGVEmpleado.ReadOnly = true;
+            this.DGVEmpleado.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.DGVEmpleado.DoubleClick += new System.EventHandler(this.DGVEmpleado_DoubleClick);
             // 
             // empleadoIDDataGridViewTextBoxColumn
@@ -532,6 +536,7 @@
             this.Controls.Add(this.LbEmpFechaNacimiento);
             this.Controls.Add(this.LbEmpApellidos);
             this.Name = "Registro_Empleados";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.Registro_Empleados_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();

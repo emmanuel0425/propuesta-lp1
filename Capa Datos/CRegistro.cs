@@ -21,7 +21,7 @@ namespace Capa_Datos
 
             try
             {
-                SqlCommand cmd = new SqlCommand("SIUD_Empleado", con);
+                SqlCommand cmd = new SqlCommand("SIUD_Empleado1", con);
                 cmd.CommandType = CommandType.StoredProcedure;
                 if (objEmpleado.Empleado_ID == 0)
                 {
@@ -43,8 +43,10 @@ namespace Capa_Datos
                 cmd.Parameters.AddWithValue("@Empleado_FechaNac", objEmpleado.FechaNac);
                 cmd.Parameters.AddWithValue("@EstadoC_ID", objEmpleado.EstadoC_ID);
                 cmd.Parameters.AddWithValue("@Empleado_Direccion", objEmpleado.Direccion);
+                cmd.Parameters.AddWithValue("@Empleado_Sector", objEmpleado.Sector);
                 cmd.Parameters.AddWithValue("@Empleado_Activo", objEmpleado.Activo);
                 cmd.Parameters.AddWithValue("@Provincia_ID", objEmpleado.Provincia);
+                cmd.Parameters.AddWithValue("@Municipio_ID", objEmpleado.Municipio_ID);
                 cmd.Parameters.AddWithValue("@Cargo_ID", objEmpleado.Cargo_ID);
                 SqlDataAdapter SqlDa = new SqlDataAdapter(cmd);
                 SqlDa.Fill(dataset);

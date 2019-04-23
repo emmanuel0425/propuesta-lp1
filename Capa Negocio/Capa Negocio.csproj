@@ -42,7 +42,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Logica\CActualizar.cs" />
     <Compile Include="Logica\CCargo.cs" />
     <Compile Include="Logica\CEmpleado.cs" />
     <Compile Include="Logica\CMunicipio.cs" />
