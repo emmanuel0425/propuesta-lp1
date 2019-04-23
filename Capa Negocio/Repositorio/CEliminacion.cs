@@ -33,7 +33,7 @@ namespace Capa_Negocio.Repositorio
             catch (Exception error)
             {
                 ResultadoOK = false;
-                MensajeError = "No se pudo eliminar el paciente " + error.Message.ToString();
+                MensajeError = "No se pudo eliminar el Empleado " + error.Message.ToString();
             }
             finally
             {
