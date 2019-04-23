@@ -213,8 +213,8 @@ namespace Capa_Presentacion
             DGVEmpleado.DataSource = dt;
             con.Close();
         }
-
         
+
         private void BtnActualizarRegistroEmpleado_Click(object sender, EventArgs e)
         {
             //Update Record  
@@ -274,7 +274,7 @@ namespace Capa_Presentacion
             bool ResultadoOk = false;
             string MensajeError = "";
 
-            if (string.IsNullOrEmpty(TBEmpleadoID.Text))
+            if (string.IsNullOrEmpty(TBEmpleadoID.Text.ToString()))
             {
                 MessageBox.Show("Advertencia", "No ha elegido ningun Registro para eliminar", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
@@ -286,7 +286,7 @@ namespace Capa_Presentacion
 
             if (ResultadoOk)
             {
-                MessageBox.Show("Notificacion", "No ha elegido ningun Registro para eliminar", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("Notificacion", "Empleado Elimininado Exitosamente", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 DisplayData();
             }
             else
