@@ -36,8 +36,6 @@ namespace Capa_Presentacion.Helper
                         }
                     }//End foreach editable
                 }
-                if (Item is GroupBox)
-                {
                     GroupBox ObjConatiner = (GroupBox)Item;
 
                     foreach (Control editable in ObjConatiner.Controls)
@@ -58,7 +56,6 @@ namespace Capa_Presentacion.Helper
                             buttonBase.Refresh();
                         }
                     }//End foreach editable
-                }
             }//End foreach of object
         }//End Met
     }
