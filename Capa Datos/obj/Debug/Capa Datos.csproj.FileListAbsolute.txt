@@ -16,3 +16,12 @@ C:\Users\maste\Desktop\La Parte 2\propuesta-lp1\propuesta-lp1\Capa Datos\obj\Deb
 C:\Users\maste\Desktop\La Parte 2\propuesta-lp1\propuesta-lp1\Capa Datos\obj\Debug\Capa Datos.csproj.CopyComplete
 C:\Users\maste\Desktop\La Parte 2\propuesta-lp1\propuesta-lp1\Capa Datos\obj\Debug\Capa Datos.dll
 C:\Users\maste\Desktop\La Parte 2\propuesta-lp1\propuesta-lp1\Capa Datos\obj\Debug\Capa Datos.pdb
+C:\Users\121429\Desktop\New folder (2)\propuesta-lp1\Capa Datos\bin\Debug\Capa Datos.dll
+C:\Users\121429\Desktop\New folder (2)\propuesta-lp1\Capa Datos\bin\Debug\Capa Datos.pdb
+C:\Users\121429\Desktop\New folder (2)\propuesta-lp1\Capa Datos\bin\Debug\Capa Negocio.dll
+C:\Users\121429\Desktop\New folder (2)\propuesta-lp1\Capa Datos\bin\Debug\Capa Negocio.pdb
+C:\Users\121429\Desktop\New folder (2)\propuesta-lp1\Capa Datos\obj\Debug\Capa Datos.csprojAssemblyReference.cache
+C:\Users\121429\Desktop\New folder (2)\propuesta-lp1\Capa Datos\obj\Debug\Capa Datos.csproj.CoreCompileInputs.cache
+C:\Users\121429\Desktop\New folder (2)\propuesta-lp1\Capa Datos\obj\Debug\Capa Datos.csproj.CopyComplete
+C:\Users\121429\Desktop\New folder (2)\propuesta-lp1\Capa Datos\obj\Debug\Capa Datos.dll
+C:\Users\121429\Desktop\New folder (2)\propuesta-lp1\Capa Datos\obj\Debug\Capa Datos.pdb

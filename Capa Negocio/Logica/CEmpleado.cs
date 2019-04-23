@@ -36,5 +36,11 @@ namespace Capa_Negocio.Logica
             return Empleado_ID; 
 
         }
-    }
+
+        public void EliminarPaciente(int Empleado_ID, ref bool ResultadoOK, ref string MensajeError)
+        {
+            CEliminacion objEliminacion = new CEliminacion();
+            objEliminacion.EliminarPaciente(Empleado_ID, ref ResultadoOK, ref MensajeError);
+        }
+        }
 }

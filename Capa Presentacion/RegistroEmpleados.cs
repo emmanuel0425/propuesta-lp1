@@ -12,14 +12,15 @@ using Capa_Negocio.Repositorio;
 using Capa_Negocio;
 using System.Data.SqlClient;
 using System.Data.Sql;
-
+using Capa_Presentacion.Helper;
 
 namespace Capa_Presentacion
 {
     public partial class Registro_Empleados : Form
     {
-    
 
+        
+        
         public Registro_Empleados()
         {
             InitializeComponent();
@@ -31,7 +32,7 @@ namespace Capa_Presentacion
         CSexo sexo = new CSexo();
         CEstadoCivil estadocivil = new CEstadoCivil();
         CCargo cargo = new CCargo();
-
+        CEmpleado objEmpleado = new CEmpleado();
 
         private void Registro_Empleados_Load(object sender, EventArgs e)
         {
@@ -68,7 +69,6 @@ namespace Capa_Presentacion
 
         public void Registrar()
         {
-            CEmpleado objEmpleado = new CEmpleado();
 
             string MensajeError = "";
             bool ResultadoOK = true;
@@ -123,9 +123,12 @@ namespace Capa_Presentacion
 
         private void BtnEmpleadoAgregarRegistro_Click(object sender, EventArgs e)
         {
+            objEmpleado.Empleado_ID = 0;
             Registrar();
             DisplayData();
 
+            CEfecto.LimpiarForm(this);
+            
 
         }
 
@@ -251,16 +254,46 @@ namespace Capa_Presentacion
             //    {
             //        MessageBox.Show("Please Select Record to Update");
             //    }
-
-            Registrar();
-            DisplayData();
+            if (string.IsNullOrEmpty(TBEmpleadoID.Text))
+            {
+                MessageBox.Show("Advertencia","No ha elegido ningun Registro",MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+            else
+            {
+                objEmpleado.Empleado_ID = Convert.ToInt32(TBEmpleadoID.Text);
+                Registrar();
+                DisplayData();
+            }
+            
             
 
         }
 
         private void BtnEliminarRegistroEmpleado_Click(object sender, EventArgs e)
         {
-            Registrar();
+            bool ResultadoOk = false;
+            string MensajeError = "";
+
+            if (string.IsNullOrEmpty(TBEmpleadoID.Text))
+            {
+                MessageBox.Show("Advertencia", "No ha elegido ningun Registro para eliminar", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+            else
+            {
+                objEmpleado.Empleado_ID = Convert.ToInt32(TBEmpleadoID.Text);
+                objEmpleado.EliminarPaciente(objEmpleado.Empleado_ID,ref ResultadoOk, ref MensajeError);
+            }
+
+            if (ResultadoOk)
+            {
+                MessageBox.Show("Notificacion", "No ha elegido ningun Registro para eliminar", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                DisplayData();
+            }
+            else
+            {
+                MessageBox.Show("Error", MensajeError, MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            
         }
         //Clear Data  
         //private void ClearData()
@@ -325,7 +358,7 @@ namespace Capa_Presentacion
                 DTPFechaNac.Text = DGVEmpleado.Rows[DGVEmpleado.CurrentRow.Index].Cells["empleadoFechaNacimientoDataGridViewTextBoxColumn"].Value.ToString();
                 CBCargo.SelectedValue = DGVEmpleado.Rows[DGVEmpleado.CurrentRow.Index].Cells["cargoIDDataGridViewTextBoxColumn"].Value.ToString();
                 CBEmpleadoSexo.SelectedValue = DGVEmpleado.Rows[DGVEmpleado.CurrentRow.Index].Cells["sexoIDDataGridViewTextBoxColumn"].Value.ToString();
-                CBEmpleadoProvincia. SelectedValue = DGVEmpleado.Rows[DGVEmpleado.CurrentRow.Index].Cells["empleadoIDDataGridViewTextBoxColumn"].Value.ToString();
+                CBEmpleadoProvincia.SelectedValue = DGVEmpleado.Rows[DGVEmpleado.CurrentRow.Index].Cells["empleadoIDDataGridViewTextBoxColumn"].Value.ToString();
                 CBEmpleadoMunicipio.SelectedText  = DGVEmpleado.Rows[DGVEmpleado.CurrentRow.Index].Cells["muIDDataGridViewTextBoxColumn"].Value.ToString();
                 CHBActivo.Checked = Convert.ToBoolean(DGVEmpleado.Rows[DGVEmpleado.CurrentRow.Index].Cells["empleadoActivoDataGridViewCheckBoxColumn"].Value);
             
@@ -335,6 +368,11 @@ namespace Capa_Presentacion
                 ResultadoOK = false;
                 MessageBox.Show(error.ToString());
             }
+        }
+
+        private void BtnEmpleadoEliminarRegistro_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

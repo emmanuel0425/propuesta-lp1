@@ -54,6 +54,7 @@
     <Compile Include="Busquedad_Empleados.Designer.cs">
       <DependentUpon>Busquedad_Empleados.cs</DependentUpon>
     </Compile>
+    <Compile Include="Helper\CEfecto.cs" />
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
     </Compile>

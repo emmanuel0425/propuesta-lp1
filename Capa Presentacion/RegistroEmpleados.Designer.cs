@@ -166,6 +166,7 @@
             resources.ApplyResources(this.BtnEmpleadoEliminarRegistro, "BtnEmpleadoEliminarRegistro");
             this.BtnEmpleadoEliminarRegistro.Name = "BtnEmpleadoEliminarRegistro";
             this.BtnEmpleadoEliminarRegistro.UseVisualStyleBackColor = false;
+            this.BtnEmpleadoEliminarRegistro.Click += new System.EventHandler(this.BtnEmpleadoEliminarRegistro_Click);
             // 
             // TBEmpleadoNombres
             // 
