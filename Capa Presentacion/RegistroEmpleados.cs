@@ -37,7 +37,7 @@ namespace Capa_Presentacion
         private void Registro_Empleados_Load(object sender, EventArgs e)
         {
             // TODO: This line of code loads data into the 'proyecto_FinalDataSet2.Empleado' table. You can move, or remove it, as needed.
-            this.empleadoTableAdapter1.Fill(this.proyecto_FinalDataSet2.Empleado);
+           // this.empleadoTableAdapter1.Fill(this.proyecto_FinalDataSet2.Empleado);
             // TODO: This line of code loads data into the 'proyecto_FinalDataSet.Empleado' table. You can move, or remove it, as needed.
             //this.empleadoTableAdapter.Fill(this.proyecto_FinalDataSet.Empleado);
             //CBEmpleadoSexo.DataSource = objBusqueda.SeleccionarSexo();
