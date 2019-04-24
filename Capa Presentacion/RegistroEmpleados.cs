@@ -371,12 +371,12 @@ namespace Capa_Presentacion
                 TBEmpleadoEmail.Text = DGVEmpleado.Rows[DGVEmpleado.CurrentRow.Index].Cells["Empleado_Email"].Value.ToString();
                 TBSector.Text = DGVEmpleado.Rows[DGVEmpleado.CurrentRow.Index].Cells["Empleado_Sector"].Value.ToString();
                 TBEmpleadoCalle.Text = DGVEmpleado.Rows[DGVEmpleado.CurrentRow.Index].Cells["Empleado_Direccion"].Value.ToString();
-                CBEmpleadoEstadoCivil.SelectedText = DGVEmpleado.Rows[DGVEmpleado.CurrentRow.Index].Cells["EstadoC_Descripcion"].Value.ToString();
+                CBEmpleadoEstadoCivil.SelectedValue = DGVEmpleado.Rows[DGVEmpleado.CurrentRow.Index].Cells["EstadoC_ID"].Value;
                 DTPFechaNac.Text = DGVEmpleado.Rows[DGVEmpleado.CurrentRow.Index].Cells["Empleado_Fecha_Nacimiento"].Value.ToString();
-                CBCargo.SelectedText = DGVEmpleado.Rows[DGVEmpleado.CurrentRow.Index].Cells["Cargo_Nombre"].Value.ToString();
-                CBEmpleadoSexo.SelectedText = DGVEmpleado.Rows[DGVEmpleado.CurrentRow.Index].Cells["Sexo_Descripcion"].Value.ToString();
-               // CBEmpleadoProvincia.SelectedValue = DGVEmpleado.Rows[DGVEmpleado.CurrentRow.Index].Cells["empleadoIDDataGridViewTextBoxColumn"].Value.ToString();
-                CBEmpleadoMunicipio.SelectedText = DGVEmpleado.Rows[DGVEmpleado.CurrentRow.Index].Cells["Mu_Nombre"].Value.ToString();
+                CBCargo.SelectedValue = DGVEmpleado.Rows[DGVEmpleado.CurrentRow.Index].Cells["Cargo_ID"].Value;
+                CBEmpleadoSexo.SelectedValue = DGVEmpleado.Rows[DGVEmpleado.CurrentRow.Index].Cells["Sexo_ID"].Value;
+                CBEmpleadoProvincia.SelectedValue = DGVEmpleado.Rows[DGVEmpleado.CurrentRow.Index].Cells["Pro_ID"].Value;
+                CBEmpleadoMunicipio.SelectedValue = DGVEmpleado.Rows[DGVEmpleado.CurrentRow.Index].Cells["Mu_ID"].Value;
                 CHBActivo.Checked = Convert.ToBoolean(DGVEmpleado.Rows[DGVEmpleado.CurrentRow.Index].Cells["Empleado_Activo"].Value);
 
             }
