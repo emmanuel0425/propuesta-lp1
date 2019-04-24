@@ -167,6 +167,38 @@ namespace Capa_Negocio.Repositorio
 
         }
 
+        internal DataTable SeleccionarEmpleado()
+        {
+
+            DataSet dataset = new DataSet();
+            DataTable datatable = new DataTable();
+            SqlConnection coneccion = new SqlConnection(CConexion.Conectar());
+            try
+            {
+
+                SqlCommand cmd = new SqlCommand("SIUD_Empleado1", coneccion);
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.Parameters.AddWithValue("@Control", "S");
+
+                SqlDataAdapter SqlDa = new SqlDataAdapter(cmd);
+                SqlDa.Fill(dataset);
+                datatable = dataset.Tables[0];
+
+            }
+            catch (Exception error)
+            {
+                error.Message.ToString();
+            }
+            finally
+            {
+                coneccion.Close();
+            }
+
+            return datatable;
+
+        }
+
+
 
 
 

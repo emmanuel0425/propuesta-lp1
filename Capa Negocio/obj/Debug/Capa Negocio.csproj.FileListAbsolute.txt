@@ -15,3 +15,4 @@ C:\Users\121429\Desktop\New folder (2)\propuesta-lp1\Capa Negocio\obj\Debug\Capa
 C:\Users\121429\Desktop\New folder (2)\propuesta-lp1\Capa Negocio\obj\Debug\Capa Negocio.dll
 C:\Users\121429\Desktop\New folder (2)\propuesta-lp1\Capa Negocio\obj\Debug\Capa Negocio.pdb
 C:\Users\121429\Desktop\New folder (2)\propuesta-lp1\Capa Negocio\obj\Debug\Capa Negocio.csprojAssemblyReference.cache
+C:\Users\maste\Desktop\La Parte 2\propuesta-lp1\propuesta-lp1\Capa Negocio\obj\Debug\Capa Negocio.csprojAssemblyReference.cache

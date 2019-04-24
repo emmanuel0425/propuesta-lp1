@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -41,6 +42,15 @@ namespace Capa_Negocio.Logica
         {
             CEliminacion objEliminacion = new CEliminacion();
             objEliminacion.EliminarPaciente(Empleado_ID, ref ResultadoOK, ref MensajeError);
+        
         }
+
+        public DataTable SeleccionarEmpleado()
+        {
+            CBusqueda objBusquedad = new CBusqueda();
+            return objBusquedad.SeleccionarEmpleado();
         }
+
+        }
+
 }

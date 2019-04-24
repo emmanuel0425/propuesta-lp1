@@ -205,13 +205,15 @@ namespace Capa_Presentacion
         //Display Data in DataGridView  
         private void DisplayData()
         {
-            SqlConnection con = new SqlConnection("Data Source =.; Initial Catalog = Proyecto Final; Integrated Security = True;");
-            con.Open();
-            DataTable dt = new DataTable();
-            SqlDataAdapter SqlDa = new SqlDataAdapter("SELECT * FROM Empleado", con);
-            SqlDa.Fill(dt);
-            DGVEmpleado.DataSource = dt;
-            con.Close();
+            //SqlConnection con = new SqlConnection("Data Source =.; Initial Catalog = Proyecto Final; Integrated Security = True;");
+            //con.Open();
+            //DataTable dt = new DataTable();
+            //SqlDataAdapter SqlDa = new SqlDataAdapter("SELECT * FROM Empleado", con);
+            //SqlDa.Fill(dt);
+            //DGVEmpleado.DataSource = dt;
+            //con.Close();
+
+            DGVEmpleado.DataSource = objEmpleado.SeleccionarEmpleado();
         }
         
 
