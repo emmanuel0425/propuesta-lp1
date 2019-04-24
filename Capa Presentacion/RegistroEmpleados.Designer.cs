@@ -322,6 +322,7 @@
             this.DGVEmpleado.Name = "DGVEmpleado";
             this.DGVEmpleado.ReadOnly = true;
             this.DGVEmpleado.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.DGVEmpleado.Click += new System.EventHandler(this.DGVEmpleado_Click);
             this.DGVEmpleado.DoubleClick += new System.EventHandler(this.DGVEmpleado_DoubleClick);
             // 
             // empleadoBindingSource3
