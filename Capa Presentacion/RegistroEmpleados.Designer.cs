@@ -68,21 +68,6 @@
             this.BtnEliminarRegistroEmpleado = new System.Windows.Forms.Button();
             this.empleadoTableAdapter = new Capa_Presentacion.Proyecto_FinalDataSetTableAdapters.EmpleadoTableAdapter();
             this.DGVEmpleado = new System.Windows.Forms.DataGridView();
-            this.empleadoIDDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.cargoIDDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.empleadoNombresDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.empleadoApellidosDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.empleadoTelefonoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.empleadoCelularDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.empleadoDireccionDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.empleadoEmailDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.empleadoCedulaDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.empleadoActivoDataGridViewCheckBoxColumn = new System.Windows.Forms.DataGridViewCheckBoxColumn();
-            this.muIDDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.empleadoFechaNacimientoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.estadoCIDDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.sexoIDDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.empleadoSectorDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.empleadoBindingSource3 = new System.Windows.Forms.BindingSource(this.components);
             this.proyecto_FinalDataSet2 = new Capa_Presentacion.Proyecto_FinalDataSet2();
             this.proyectoFinalDataSet2BindingSource = new System.Windows.Forms.BindingSource(this.components);
@@ -329,26 +314,8 @@
             // 
             // DGVEmpleado
             // 
-            this.DGVEmpleado.AutoGenerateColumns = false;
             this.DGVEmpleado.BackgroundColor = System.Drawing.SystemColors.ActiveCaption;
             this.DGVEmpleado.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.DGVEmpleado.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.empleadoIDDataGridViewTextBoxColumn,
-            this.cargoIDDataGridViewTextBoxColumn,
-            this.empleadoNombresDataGridViewTextBoxColumn,
-            this.empleadoApellidosDataGridViewTextBoxColumn,
-            this.empleadoTelefonoDataGridViewTextBoxColumn,
-            this.empleadoCelularDataGridViewTextBoxColumn,
-            this.empleadoDireccionDataGridViewTextBoxColumn,
-            this.empleadoEmailDataGridViewTextBoxColumn,
-            this.empleadoCedulaDataGridViewTextBoxColumn,
-            this.empleadoActivoDataGridViewCheckBoxColumn,
-            this.muIDDataGridViewTextBoxColumn,
-            this.empleadoFechaNacimientoDataGridViewTextBoxColumn,
-            this.estadoCIDDataGridViewTextBoxColumn,
-            this.sexoIDDataGridViewTextBoxColumn,
-            this.empleadoSectorDataGridViewTextBoxColumn});
-            this.DGVEmpleado.DataSource = this.empleadoBindingSource3;
             this.DGVEmpleado.GridColor = System.Drawing.SystemColors.ActiveCaption;
             resources.ApplyResources(this.DGVEmpleado, "DGVEmpleado");
             this.DGVEmpleado.MultiSelect = false;
@@ -356,111 +323,6 @@
             this.DGVEmpleado.ReadOnly = true;
             this.DGVEmpleado.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.DGVEmpleado.DoubleClick += new System.EventHandler(this.DGVEmpleado_DoubleClick);
-            // 
-            // empleadoIDDataGridViewTextBoxColumn
-            // 
-            this.empleadoIDDataGridViewTextBoxColumn.DataPropertyName = "Empleado_ID";
-            resources.ApplyResources(this.empleadoIDDataGridViewTextBoxColumn, "empleadoIDDataGridViewTextBoxColumn");
-            this.empleadoIDDataGridViewTextBoxColumn.Name = "empleadoIDDataGridViewTextBoxColumn";
-            this.empleadoIDDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // cargoIDDataGridViewTextBoxColumn
-            // 
-            this.cargoIDDataGridViewTextBoxColumn.DataPropertyName = "Cargo_ID";
-            resources.ApplyResources(this.cargoIDDataGridViewTextBoxColumn, "cargoIDDataGridViewTextBoxColumn");
-            this.cargoIDDataGridViewTextBoxColumn.Name = "cargoIDDataGridViewTextBoxColumn";
-            this.cargoIDDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // empleadoNombresDataGridViewTextBoxColumn
-            // 
-            this.empleadoNombresDataGridViewTextBoxColumn.DataPropertyName = "Empleado_Nombres";
-            resources.ApplyResources(this.empleadoNombresDataGridViewTextBoxColumn, "empleadoNombresDataGridViewTextBoxColumn");
-            this.empleadoNombresDataGridViewTextBoxColumn.Name = "empleadoNombresDataGridViewTextBoxColumn";
-            this.empleadoNombresDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // empleadoApellidosDataGridViewTextBoxColumn
-            // 
-            this.empleadoApellidosDataGridViewTextBoxColumn.DataPropertyName = "Empleado_Apellidos";
-            resources.ApplyResources(this.empleadoApellidosDataGridViewTextBoxColumn, "empleadoApellidosDataGridViewTextBoxColumn");
-            this.empleadoApellidosDataGridViewTextBoxColumn.Name = "empleadoApellidosDataGridViewTextBoxColumn";
-            this.empleadoApellidosDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // empleadoTelefonoDataGridViewTextBoxColumn
-            // 
-            this.empleadoTelefonoDataGridViewTextBoxColumn.DataPropertyName = "Empleado_Telefono";
-            resources.ApplyResources(this.empleadoTelefonoDataGridViewTextBoxColumn, "empleadoTelefonoDataGridViewTextBoxColumn");
-            this.empleadoTelefonoDataGridViewTextBoxColumn.Name = "empleadoTelefonoDataGridViewTextBoxColumn";
-            this.empleadoTelefonoDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // empleadoCelularDataGridViewTextBoxColumn
-            // 
-            this.empleadoCelularDataGridViewTextBoxColumn.DataPropertyName = "Empleado_Celular";
-            resources.ApplyResources(this.empleadoCelularDataGridViewTextBoxColumn, "empleadoCelularDataGridViewTextBoxColumn");
-            this.empleadoCelularDataGridViewTextBoxColumn.Name = "empleadoCelularDataGridViewTextBoxColumn";
-            this.empleadoCelularDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // empleadoDireccionDataGridViewTextBoxColumn
-            // 
-            this.empleadoDireccionDataGridViewTextBoxColumn.DataPropertyName = "Empleado_Direccion";
-            resources.ApplyResources(this.empleadoDireccionDataGridViewTextBoxColumn, "empleadoDireccionDataGridViewTextBoxColumn");
-            this.empleadoDireccionDataGridViewTextBoxColumn.Name = "empleadoDireccionDataGridViewTextBoxColumn";
-            this.empleadoDireccionDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // empleadoEmailDataGridViewTextBoxColumn
-            // 
-            this.empleadoEmailDataGridViewTextBoxColumn.DataPropertyName = "Empleado_Email";
-            resources.ApplyResources(this.empleadoEmailDataGridViewTextBoxColumn, "empleadoEmailDataGridViewTextBoxColumn");
-            this.empleadoEmailDataGridViewTextBoxColumn.Name = "empleadoEmailDataGridViewTextBoxColumn";
-            this.empleadoEmailDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // empleadoCedulaDataGridViewTextBoxColumn
-            // 
-            this.empleadoCedulaDataGridViewTextBoxColumn.DataPropertyName = "Empleado_Cedula";
-            resources.ApplyResources(this.empleadoCedulaDataGridViewTextBoxColumn, "empleadoCedulaDataGridViewTextBoxColumn");
-            this.empleadoCedulaDataGridViewTextBoxColumn.Name = "empleadoCedulaDataGridViewTextBoxColumn";
-            this.empleadoCedulaDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // empleadoActivoDataGridViewCheckBoxColumn
-            // 
-            this.empleadoActivoDataGridViewCheckBoxColumn.DataPropertyName = "Empleado_Activo";
-            resources.ApplyResources(this.empleadoActivoDataGridViewCheckBoxColumn, "empleadoActivoDataGridViewCheckBoxColumn");
-            this.empleadoActivoDataGridViewCheckBoxColumn.Name = "empleadoActivoDataGridViewCheckBoxColumn";
-            this.empleadoActivoDataGridViewCheckBoxColumn.ReadOnly = true;
-            // 
-            // muIDDataGridViewTextBoxColumn
-            // 
-            this.muIDDataGridViewTextBoxColumn.DataPropertyName = "Mu_ID";
-            resources.ApplyResources(this.muIDDataGridViewTextBoxColumn, "muIDDataGridViewTextBoxColumn");
-            this.muIDDataGridViewTextBoxColumn.Name = "muIDDataGridViewTextBoxColumn";
-            this.muIDDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // empleadoFechaNacimientoDataGridViewTextBoxColumn
-            // 
-            this.empleadoFechaNacimientoDataGridViewTextBoxColumn.DataPropertyName = "Empleado_Fecha_Nacimiento";
-            resources.ApplyResources(this.empleadoFechaNacimientoDataGridViewTextBoxColumn, "empleadoFechaNacimientoDataGridViewTextBoxColumn");
-            this.empleadoFechaNacimientoDataGridViewTextBoxColumn.Name = "empleadoFechaNacimientoDataGridViewTextBoxColumn";
-            this.empleadoFechaNacimientoDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // estadoCIDDataGridViewTextBoxColumn
-            // 
-            this.estadoCIDDataGridViewTextBoxColumn.DataPropertyName = "EstadoC_ID";
-            resources.ApplyResources(this.estadoCIDDataGridViewTextBoxColumn, "estadoCIDDataGridViewTextBoxColumn");
-            this.estadoCIDDataGridViewTextBoxColumn.Name = "estadoCIDDataGridViewTextBoxColumn";
-            this.estadoCIDDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // sexoIDDataGridViewTextBoxColumn
-            // 
-            this.sexoIDDataGridViewTextBoxColumn.DataPropertyName = "Sexo_ID";
-            resources.ApplyResources(this.sexoIDDataGridViewTextBoxColumn, "sexoIDDataGridViewTextBoxColumn");
-            this.sexoIDDataGridViewTextBoxColumn.Name = "sexoIDDataGridViewTextBoxColumn";
-            this.sexoIDDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // empleadoSectorDataGridViewTextBoxColumn
-            // 
-            this.empleadoSectorDataGridViewTextBoxColumn.DataPropertyName = "Empleado_Sector";
-            resources.ApplyResources(this.empleadoSectorDataGridViewTextBoxColumn, "empleadoSectorDataGridViewTextBoxColumn");
-            this.empleadoSectorDataGridViewTextBoxColumn.Name = "empleadoSectorDataGridViewTextBoxColumn";
-            this.empleadoSectorDataGridViewTextBoxColumn.ReadOnly = true;
             // 
             // empleadoBindingSource3
             // 
@@ -607,21 +469,6 @@
         private System.Windows.Forms.BindingSource proyectoFinalDataSet2BindingSource;
         private System.Windows.Forms.BindingSource empleadoBindingSource1;
         private Proyecto_FinalDataSet2TableAdapters.EmpleadoTableAdapter empleadoTableAdapter1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn empleadoIDDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn cargoIDDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn empleadoNombresDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn empleadoApellidosDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn empleadoTelefonoDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn empleadoCelularDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn empleadoDireccionDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn empleadoEmailDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn empleadoCedulaDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewCheckBoxColumn empleadoActivoDataGridViewCheckBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn muIDDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn empleadoFechaNacimientoDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn estadoCIDDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn sexoIDDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn empleadoSectorDataGridViewTextBoxColumn;
         private System.Windows.Forms.BindingSource empleadoBindingSource3;
         private System.Windows.Forms.BindingSource empleadoBindingSource2;
         private System.Windows.Forms.TextBox TBEmpleadoID;
