@@ -199,11 +199,10 @@ namespace Capa_Negocio.Repositorio
         }
         
 
-        internal DataTable SeleccionarUsuario(string Usuario, string Clave, int Empleado_ID, ref bool ResultadoOK, ref string MensajeError)
+        internal DataTable SeleccionarUsuario(string Usuario, string Clave, ref bool ResultadoOK, ref string MensajeError)
         {
             DataSet dataset = new DataSet();
             DataTable datatable = new DataTable();
-            CConexion ObjConexion = new CConexion();
             SqlConnection coneccion = new SqlConnection(CConexion.Conectar());
             try
             {
@@ -213,7 +212,6 @@ namespace Capa_Negocio.Repositorio
                 cmd.Parameters.AddWithValue("@Control", "S");
                 cmd.Parameters.AddWithValue("@Usuario_User", Usuario);
                 cmd.Parameters.AddWithValue("@Usuario_Password", Clave);
-                cmd.Parameters.AddWithValue("@Empleado_ID", Empleado_ID);
 
                 SqlDataAdapter SqlDa = new SqlDataAdapter(cmd);
                 SqlDa.Fill(dataset);
@@ -232,7 +230,6 @@ namespace Capa_Negocio.Repositorio
             {
 
                 coneccion.Close();
-                ObjConexion = null;
             }
 
             return datatable;

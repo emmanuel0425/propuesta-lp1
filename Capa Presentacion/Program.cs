@@ -16,7 +16,8 @@ namespace Capa_Presentacion
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Registro_Empleados());
+            //Application.Run(new Registro_Empleados());
+            Application.Run(new Login());
         }
     }
 }

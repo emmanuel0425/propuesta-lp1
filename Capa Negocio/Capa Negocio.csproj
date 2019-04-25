@@ -48,6 +48,7 @@
     <Compile Include="Logica\CProvincia.cs" />
     <Compile Include="Logica\CSexo.cs" />
     <Compile Include="Logica\CEstadoCivil.cs" />
+    <Compile Include="Logica\CUsuario.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repositorio\CBusqueda.cs" />
     <Compile Include="Repositorio\CConexion.cs" />
