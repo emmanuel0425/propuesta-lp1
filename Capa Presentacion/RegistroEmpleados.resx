@@ -130,13 +130,10 @@
     <value>NoControl</value>
   </data>
   <data name="LbEmpApellidos.Location" type="System.Drawing.Point, System.Drawing">
-    <value>144, 102</value>
-  </data>
-  <data name="LbEmpApellidos.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 0, 4, 0</value>
+    <value>108, 83</value>
   </data>
   <data name="LbEmpApellidos.Size" type="System.Drawing.Size, System.Drawing">
-    <value>88, 24</value>
+    <value>67, 18</value>
   </data>
   <data name="LbEmpApellidos.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -166,13 +163,10 @@
     <value>NoControl</value>
   </data>
   <data name="LbEmpFechaNacimiento.Location" type="System.Drawing.Point, System.Drawing">
-    <value>40, 209</value>
-  </data>
-  <data name="LbEmpFechaNacimiento.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 0, 4, 0</value>
+    <value>30, 170</value>
   </data>
   <data name="LbEmpFechaNacimiento.Size" type="System.Drawing.Size, System.Drawing">
-    <value>188, 24</value>
+    <value>145, 18</value>
   </data>
   <data name="LbEmpFechaNacimiento.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -202,13 +196,10 @@
     <value>NoControl</value>
   </data>
   <data name="LbEmpleadoTelefono.Location" type="System.Drawing.Point, System.Drawing">
-    <value>717, 110</value>
-  </data>
-  <data name="LbEmpleadoTelefono.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 0, 4, 0</value>
+    <value>538, 89</value>
   </data>
   <data name="LbEmpleadoTelefono.Size" type="System.Drawing.Size, System.Drawing">
-    <value>85, 24</value>
+    <value>66, 18</value>
   </data>
   <data name="LbEmpleadoTelefono.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -238,13 +229,10 @@
     <value>NoControl</value>
   </data>
   <data name="LbEmpleadoCelular.Location" type="System.Drawing.Point, System.Drawing">
-    <value>733, 50</value>
-  </data>
-  <data name="LbEmpleadoCelular.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 0, 4, 0</value>
+    <value>550, 41</value>
   </data>
   <data name="LbEmpleadoCelular.Size" type="System.Drawing.Size, System.Drawing">
-    <value>69, 24</value>
+    <value>54, 18</value>
   </data>
   <data name="LbEmpleadoCelular.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
@@ -274,13 +262,10 @@
     <value>NoControl</value>
   </data>
   <data name="LbEmpleadoProvincia.Location" type="System.Drawing.Point, System.Drawing">
-    <value>8, 118</value>
-  </data>
-  <data name="LbEmpleadoProvincia.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 0, 4, 0</value>
+    <value>6, 96</value>
   </data>
   <data name="LbEmpleadoProvincia.Size" type="System.Drawing.Size, System.Drawing">
-    <value>87, 24</value>
+    <value>69, 18</value>
   </data>
   <data name="LbEmpleadoProvincia.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
@@ -310,13 +295,10 @@
     <value>NoControl</value>
   </data>
   <data name="LbEmpleadoCedula.Location" type="System.Drawing.Point, System.Drawing">
-    <value>161, 267</value>
-  </data>
-  <data name="LbEmpleadoCedula.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 0, 4, 0</value>
+    <value>121, 217</value>
   </data>
   <data name="LbEmpleadoCedula.Size" type="System.Drawing.Size, System.Drawing">
-    <value>70, 24</value>
+    <value>54, 18</value>
   </data>
   <data name="LbEmpleadoCedula.TabIndex" type="System.Int32, mscorlib">
     <value>9</value>
@@ -346,13 +328,10 @@
     <value>NoControl</value>
   </data>
   <data name="LbEmpleadoEmail.Location" type="System.Drawing.Point, System.Drawing">
-    <value>745, 158</value>
-  </data>
-  <data name="LbEmpleadoEmail.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 0, 4, 0</value>
+    <value>559, 128</value>
   </data>
   <data name="LbEmpleadoEmail.Size" type="System.Drawing.Size, System.Drawing">
-    <value>57, 24</value>
+    <value>45, 18</value>
   </data>
   <data name="LbEmpleadoEmail.TabIndex" type="System.Int32, mscorlib">
     <value>10</value>
@@ -382,13 +361,10 @@
     <value>NoControl</value>
   </data>
   <data name="LbEmpleadoSexo.Location" type="System.Drawing.Point, System.Drawing">
-    <value>173, 155</value>
-  </data>
-  <data name="LbEmpleadoSexo.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 0, 4, 0</value>
+    <value>130, 126</value>
   </data>
   <data name="LbEmpleadoSexo.Size" type="System.Drawing.Size, System.Drawing">
-    <value>54, 24</value>
+    <value>42, 18</value>
   </data>
   <data name="LbEmpleadoSexo.TabIndex" type="System.Int32, mscorlib">
     <value>11</value>
@@ -418,13 +394,10 @@
     <value>NoControl</value>
   </data>
   <data name="LbEmpleadoEstadoCivil.Location" type="System.Drawing.Point, System.Drawing">
-    <value>691, 212</value>
-  </data>
-  <data name="LbEmpleadoEstadoCivil.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 0, 4, 0</value>
+    <value>518, 172</value>
   </data>
   <data name="LbEmpleadoEstadoCivil.Size" type="System.Drawing.Size, System.Drawing">
-    <value>107, 24</value>
+    <value>86, 18</value>
   </data>
   <data name="LbEmpleadoEstadoCivil.TabIndex" type="System.Int32, mscorlib">
     <value>12</value>
@@ -454,13 +427,10 @@
     <value>NoControl</value>
   </data>
   <data name="LbCargo.Location" type="System.Drawing.Point, System.Drawing">
-    <value>740, 270</value>
-  </data>
-  <data name="LbCargo.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 0, 4, 0</value>
+    <value>555, 219</value>
   </data>
   <data name="LbCargo.Size" type="System.Drawing.Size, System.Drawing">
-    <value>61, 24</value>
+    <value>49, 18</value>
   </data>
   <data name="LbCargo.TabIndex" type="System.Int32, mscorlib">
     <value>13</value>
@@ -487,13 +457,10 @@
     <value>NoControl</value>
   </data>
   <data name="BtnEmpleadoAgregarRegistro.Location" type="System.Drawing.Point, System.Drawing">
-    <value>95, 782</value>
-  </data>
-  <data name="BtnEmpleadoAgregarRegistro.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
+    <value>71, 635</value>
   </data>
   <data name="BtnEmpleadoAgregarRegistro.Size" type="System.Drawing.Size, System.Drawing">
-    <value>192, 58</value>
+    <value>144, 47</value>
   </data>
   <data name="BtnEmpleadoAgregarRegistro.TabIndex" type="System.Int32, mscorlib">
     <value>15</value>
@@ -520,13 +487,10 @@
     <value>NoControl</value>
   </data>
   <data name="BtnEmpleadoEliminarRegistro.Location" type="System.Drawing.Point, System.Drawing">
-    <value>895, 782</value>
-  </data>
-  <data name="BtnEmpleadoEliminarRegistro.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
+    <value>671, 635</value>
   </data>
   <data name="BtnEmpleadoEliminarRegistro.Size" type="System.Drawing.Size, System.Drawing">
-    <value>192, 58</value>
+    <value>144, 47</value>
   </data>
   <data name="BtnEmpleadoEliminarRegistro.TabIndex" type="System.Int32, mscorlib">
     <value>16</value>
@@ -550,13 +514,10 @@
     <value>Microsoft Sans Serif, 11.25pt</value>
   </data>
   <data name="TBEmpleadoNombres.Location" type="System.Drawing.Point, System.Drawing">
-    <value>260, 50</value>
-  </data>
-  <data name="TBEmpleadoNombres.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
+    <value>195, 41</value>
   </data>
   <data name="TBEmpleadoNombres.Size" type="System.Drawing.Size, System.Drawing">
-    <value>268, 29</value>
+    <value>202, 24</value>
   </data>
   <data name="TBEmpleadoNombres.TabIndex" type="System.Int32, mscorlib">
     <value>17</value>
@@ -577,13 +538,10 @@
     <value>Microsoft Sans Serif, 11.25pt</value>
   </data>
   <data name="TBEmpleadoApellidos.Location" type="System.Drawing.Point, System.Drawing">
-    <value>260, 102</value>
-  </data>
-  <data name="TBEmpleadoApellidos.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
+    <value>195, 83</value>
   </data>
   <data name="TBEmpleadoApellidos.Size" type="System.Drawing.Size, System.Drawing">
-    <value>268, 29</value>
+    <value>202, 24</value>
   </data>
   <data name="TBEmpleadoApellidos.TabIndex" type="System.Int32, mscorlib">
     <value>18</value>
@@ -604,13 +562,10 @@
     <value>Microsoft Sans Serif, 11.25pt</value>
   </data>
   <data name="TBEmpleadoEmail.Location" type="System.Drawing.Point, System.Drawing">
-    <value>832, 151</value>
-  </data>
-  <data name="TBEmpleadoEmail.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
+    <value>624, 123</value>
   </data>
   <data name="TBEmpleadoEmail.Size" type="System.Drawing.Size, System.Drawing">
-    <value>268, 29</value>
+    <value>202, 24</value>
   </data>
   <data name="TBEmpleadoEmail.TabIndex" type="System.Int32, mscorlib">
     <value>23</value>
@@ -631,13 +586,10 @@
     <value>Microsoft Sans Serif, 11.25pt</value>
   </data>
   <data name="CBEmpleadoSexo.Location" type="System.Drawing.Point, System.Drawing">
-    <value>260, 151</value>
-  </data>
-  <data name="CBEmpleadoSexo.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
+    <value>195, 123</value>
   </data>
   <data name="CBEmpleadoSexo.Size" type="System.Drawing.Size, System.Drawing">
-    <value>268, 32</value>
+    <value>202, 26</value>
   </data>
   <data name="CBEmpleadoSexo.TabIndex" type="System.Int32, mscorlib">
     <value>26</value>
@@ -658,13 +610,10 @@
     <value>Microsoft Sans Serif, 11.25pt</value>
   </data>
   <data name="CBEmpleadoEstadoCivil.Location" type="System.Drawing.Point, System.Drawing">
-    <value>832, 203</value>
-  </data>
-  <data name="CBEmpleadoEstadoCivil.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
+    <value>624, 165</value>
   </data>
   <data name="CBEmpleadoEstadoCivil.Size" type="System.Drawing.Size, System.Drawing">
-    <value>268, 32</value>
+    <value>202, 26</value>
   </data>
   <data name="CBEmpleadoEstadoCivil.TabIndex" type="System.Int32, mscorlib">
     <value>27</value>
@@ -685,13 +634,10 @@
     <value>Microsoft Sans Serif, 11.25pt</value>
   </data>
   <data name="CBCargo.Location" type="System.Drawing.Point, System.Drawing">
-    <value>832, 263</value>
-  </data>
-  <data name="CBCargo.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
+    <value>624, 214</value>
   </data>
   <data name="CBCargo.Size" type="System.Drawing.Size, System.Drawing">
-    <value>268, 32</value>
+    <value>202, 26</value>
   </data>
   <data name="CBCargo.TabIndex" type="System.Int32, mscorlib">
     <value>28</value>
@@ -712,13 +658,10 @@
     <value>Microsoft Sans Serif, 11.25pt</value>
   </data>
   <data name="CBEmpleadoProvincia.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 144</value>
-  </data>
-  <data name="CBEmpleadoProvincia.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
+    <value>9, 117</value>
   </data>
   <data name="CBEmpleadoProvincia.Size" type="System.Drawing.Size, System.Drawing">
-    <value>524, 32</value>
+    <value>394, 26</value>
   </data>
   <data name="CBEmpleadoProvincia.TabIndex" type="System.Int32, mscorlib">
     <value>29</value>
@@ -745,13 +688,10 @@
     <value>NoControl</value>
   </data>
   <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>140, 54</value>
-  </data>
-  <data name="label1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 0, 4, 0</value>
+    <value>105, 44</value>
   </data>
   <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>88, 24</value>
+    <value>70, 18</value>
   </data>
   <data name="label1.TabIndex" type="System.Int32, mscorlib">
     <value>31</value>
@@ -775,13 +715,10 @@
     <value>Microsoft Sans Serif, 11.25pt</value>
   </data>
   <data name="DTPFechaNac.Location" type="System.Drawing.Point, System.Drawing">
-    <value>260, 206</value>
-  </data>
-  <data name="DTPFechaNac.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
+    <value>195, 167</value>
   </data>
   <data name="DTPFechaNac.Size" type="System.Drawing.Size, System.Drawing">
-    <value>268, 29</value>
+    <value>202, 24</value>
   </data>
   <data name="DTPFechaNac.TabIndex" type="System.Int32, mscorlib">
     <value>33</value>
@@ -802,16 +739,13 @@
     <value>Microsoft Sans Serif, 11.25pt</value>
   </data>
   <data name="TBTelefono.Location" type="System.Drawing.Point, System.Drawing">
-    <value>832, 102</value>
-  </data>
-  <data name="TBTelefono.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
+    <value>624, 83</value>
   </data>
   <data name="TBTelefono.Mask" xml:space="preserve">
     <value>(999) 000-0000</value>
   </data>
   <data name="TBTelefono.Size" type="System.Drawing.Size, System.Drawing">
-    <value>268, 29</value>
+    <value>202, 24</value>
   </data>
   <data name="TBTelefono.TabIndex" type="System.Int32, mscorlib">
     <value>34</value>
@@ -832,16 +766,13 @@
     <value>Microsoft Sans Serif, 11.25pt</value>
   </data>
   <data name="TBCelular.Location" type="System.Drawing.Point, System.Drawing">
-    <value>832, 54</value>
-  </data>
-  <data name="TBCelular.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
+    <value>624, 44</value>
   </data>
   <data name="TBCelular.Mask" xml:space="preserve">
     <value>(999) 000-0000</value>
   </data>
   <data name="TBCelular.Size" type="System.Drawing.Size, System.Drawing">
-    <value>268, 29</value>
+    <value>202, 24</value>
   </data>
   <data name="TBCelular.TabIndex" type="System.Int32, mscorlib">
     <value>35</value>
@@ -862,16 +793,13 @@
     <value>Microsoft Sans Serif, 11.25pt</value>
   </data>
   <data name="TBCedula.Location" type="System.Drawing.Point, System.Drawing">
-    <value>260, 263</value>
-  </data>
-  <data name="TBCedula.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
+    <value>195, 214</value>
   </data>
   <data name="TBCedula.Mask" xml:space="preserve">
     <value>999-9999999-9</value>
   </data>
   <data name="TBCedula.Size" type="System.Drawing.Size, System.Drawing">
-    <value>268, 29</value>
+    <value>202, 24</value>
   </data>
   <data name="TBCedula.TabIndex" type="System.Int32, mscorlib">
     <value>36</value>
@@ -892,13 +820,10 @@
     <value>Microsoft Sans Serif, 11.25pt</value>
   </data>
   <data name="TBSector.Location" type="System.Drawing.Point, System.Drawing">
-    <value>592, 65</value>
-  </data>
-  <data name="TBSector.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
+    <value>444, 53</value>
   </data>
   <data name="TBSector.Size" type="System.Drawing.Size, System.Drawing">
-    <value>528, 29</value>
+    <value>397, 24</value>
   </data>
   <data name="TBSector.TabIndex" type="System.Int32, mscorlib">
     <value>33</value>
@@ -925,13 +850,10 @@
     <value>NoControl</value>
   </data>
   <data name="LBSector.Location" type="System.Drawing.Point, System.Drawing">
-    <value>592, 39</value>
-  </data>
-  <data name="LBSector.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 0, 4, 0</value>
+    <value>444, 32</value>
   </data>
   <data name="LBSector.Size" type="System.Drawing.Size, System.Drawing">
-    <value>64, 24</value>
+    <value>52, 18</value>
   </data>
   <data name="LBSector.TabIndex" type="System.Int32, mscorlib">
     <value>34</value>
@@ -955,13 +877,10 @@
     <value>Microsoft Sans Serif, 11.25pt</value>
   </data>
   <data name="TBEmpleadoCalle.Location" type="System.Drawing.Point, System.Drawing">
-    <value>8, 65</value>
-  </data>
-  <data name="TBEmpleadoCalle.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
+    <value>6, 53</value>
   </data>
   <data name="TBEmpleadoCalle.Size" type="System.Drawing.Size, System.Drawing">
-    <value>528, 29</value>
+    <value>397, 24</value>
   </data>
   <data name="TBEmpleadoCalle.TabIndex" type="System.Int32, mscorlib">
     <value>24</value>
@@ -988,13 +907,10 @@
     <value>NoControl</value>
   </data>
   <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>8, 39</value>
-  </data>
-  <data name="label2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 0, 4, 0</value>
+    <value>6, 32</value>
   </data>
   <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>52, 24</value>
+    <value>41, 18</value>
   </data>
   <data name="label2.TabIndex" type="System.Int32, mscorlib">
     <value>32</value>
@@ -1018,13 +934,10 @@
     <value>Microsoft Sans Serif, 11.25pt</value>
   </data>
   <data name="CBEmpleadoMunicipio.Location" type="System.Drawing.Point, System.Drawing">
-    <value>596, 144</value>
-  </data>
-  <data name="CBEmpleadoMunicipio.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
+    <value>447, 117</value>
   </data>
   <data name="CBEmpleadoMunicipio.Size" type="System.Drawing.Size, System.Drawing">
-    <value>524, 32</value>
+    <value>394, 26</value>
   </data>
   <data name="CBEmpleadoMunicipio.TabIndex" type="System.Int32, mscorlib">
     <value>30</value>
@@ -1051,13 +964,10 @@
     <value>NoControl</value>
   </data>
   <data name="LbEmpleadoMunicipio.Location" type="System.Drawing.Point, System.Drawing">
-    <value>592, 118</value>
-  </data>
-  <data name="LbEmpleadoMunicipio.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 0, 4, 0</value>
+    <value>444, 96</value>
   </data>
   <data name="LbEmpleadoMunicipio.Size" type="System.Drawing.Size, System.Drawing">
-    <value>92, 24</value>
+    <value>71, 18</value>
   </data>
   <data name="LbEmpleadoMunicipio.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
@@ -1081,16 +991,10 @@
     <value>Microsoft Sans Serif, 11.25pt</value>
   </data>
   <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>27, 321</value>
-  </data>
-  <data name="groupBox1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
-  </data>
-  <data name="groupBox1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
+    <value>20, 261</value>
   </data>
   <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1163, 188</value>
+    <value>872, 153</value>
   </data>
   <data name="groupBox1.TabIndex" type="System.Int32, mscorlib">
     <value>37</value>
@@ -1117,13 +1021,10 @@
     <value>NoControl</value>
   </data>
   <data name="CHBActivo.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1032, 303</value>
-  </data>
-  <data name="CHBActivo.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
+    <value>774, 246</value>
   </data>
   <data name="CHBActivo.Size" type="System.Drawing.Size, System.Drawing">
-    <value>68, 21</value>
+    <value>56, 17</value>
   </data>
   <data name="CHBActivo.TabIndex" type="System.Int32, mscorlib">
     <value>38</value>
@@ -1156,13 +1057,10 @@
     <value>NoControl</value>
   </data>
   <data name="BtnActualizarRegistroEmpleado.Location" type="System.Drawing.Point, System.Drawing">
-    <value>361, 782</value>
-  </data>
-  <data name="BtnActualizarRegistroEmpleado.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
+    <value>271, 635</value>
   </data>
   <data name="BtnActualizarRegistroEmpleado.Size" type="System.Drawing.Size, System.Drawing">
-    <value>192, 58</value>
+    <value>144, 47</value>
   </data>
   <data name="BtnActualizarRegistroEmpleado.TabIndex" type="System.Int32, mscorlib">
     <value>69</value>
@@ -1189,13 +1087,10 @@
     <value>NoControl</value>
   </data>
   <data name="BtnEliminarRegistroEmpleado.Location" type="System.Drawing.Point, System.Drawing">
-    <value>628, 782</value>
-  </data>
-  <data name="BtnEliminarRegistroEmpleado.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
+    <value>471, 635</value>
   </data>
   <data name="BtnEliminarRegistroEmpleado.Size" type="System.Drawing.Size, System.Drawing">
-    <value>192, 58</value>
+    <value>144, 47</value>
   </data>
   <data name="BtnEliminarRegistroEmpleado.TabIndex" type="System.Int32, mscorlib">
     <value>70</value>
@@ -1219,13 +1114,10 @@
     <value>375, 17</value>
   </metadata>
   <data name="DGVEmpleado.Location" type="System.Drawing.Point, System.Drawing">
-    <value>44, 540</value>
-  </data>
-  <data name="DGVEmpleado.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
+    <value>33, 439</value>
   </data>
   <data name="DGVEmpleado.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1123, 204</value>
+    <value>842, 166</value>
   </data>
   <data name="DGVEmpleado.TabIndex" type="System.Int32, mscorlib">
     <value>71</value>
@@ -1264,13 +1156,10 @@
     <value>Microsoft Sans Serif, 11.25pt</value>
   </data>
   <data name="TBEmpleadoID.Location" type="System.Drawing.Point, System.Drawing">
-    <value>260, 14</value>
-  </data>
-  <data name="TBEmpleadoID.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
+    <value>195, 11</value>
   </data>
   <data name="TBEmpleadoID.Size" type="System.Drawing.Size, System.Drawing">
-    <value>111, 29</value>
+    <value>84, 24</value>
   </data>
   <data name="TBEmpleadoID.TabIndex" type="System.Int32, mscorlib">
     <value>72</value>
@@ -1300,13 +1189,10 @@
     <value>NoControl</value>
   </data>
   <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>156, 16</value>
-  </data>
-  <data name="label3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 0, 4, 0</value>
+    <value>117, 13</value>
   </data>
   <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>71, 24</value>
+    <value>56, 18</value>
   </data>
   <data name="label3.TabIndex" type="System.Int32, mscorlib">
     <value>73</value>
@@ -1333,13 +1219,10 @@
     <value>NoControl</value>
   </data>
   <data name="BTNNuevo.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1217, 16</value>
-  </data>
-  <data name="BTNNuevo.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
+    <value>913, 13</value>
   </data>
   <data name="BTNNuevo.Size" type="System.Drawing.Size, System.Drawing">
-    <value>120, 34</value>
+    <value>90, 28</value>
   </data>
   <data name="BTNNuevo.TabIndex" type="System.Int32, mscorlib">
     <value>74</value>
@@ -1366,7 +1249,7 @@
     <value>25</value>
   </metadata>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>8, 16</value>
+    <value>6, 13</value>
   </data>
   <data name="$this.AutoScroll" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1378,10 +1261,7 @@
     <value>GrowAndShrink</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>1392, 750</value>
-  </data>
-  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
+    <value>1028, 609</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>Registro_Empleados</value>

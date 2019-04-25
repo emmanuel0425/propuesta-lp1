@@ -371,7 +371,7 @@
             resources.ApplyResources(this.BTNNuevo, "BTNNuevo");
             this.BTNNuevo.Name = "BTNNuevo";
             this.BTNNuevo.UseVisualStyleBackColor = false;
-            this.BTNNuevo.Click += new System.EventHandler(this.BTNNuevo_Click);
+            this.BTNNuevo.Click += new System.EventHandler(this.BtnNuevo_Click);
             // 
             // Registro_Empleados
             // 

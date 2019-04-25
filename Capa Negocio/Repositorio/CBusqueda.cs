@@ -197,51 +197,46 @@ namespace Capa_Negocio.Repositorio
             return datatable;
 
         }
+        
 
+        internal DataTable SeleccionarUsuario(string Usuario, string Clave, int Empleado_ID, ref bool ResultadoOK, ref string MensajeError)
+        {
+            DataSet dataset = new DataSet();
+            DataTable datatable = new DataTable();
+            CConexion ObjConexion = new CConexion();
+            SqlConnection coneccion = new SqlConnection(CConexion.Conectar());
+            try
+            {
 
+                SqlCommand cmd = new SqlCommand("SIUD_Usuario", coneccion);
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.Parameters.AddWithValue("@Control", "S");
+                cmd.Parameters.AddWithValue("@Usuario_User", Usuario);
+                cmd.Parameters.AddWithValue("@Usuario_Password", Clave);
+                cmd.Parameters.AddWithValue("@Empleado_ID", Empleado_ID);
 
+                SqlDataAdapter SqlDa = new SqlDataAdapter(cmd);
+                SqlDa.Fill(dataset);
+                datatable = dataset.Tables[0];
 
+                ResultadoOK = true;
+                MensajeError = "";
 
+            }
+            catch (Exception error)
+            {
+                ResultadoOK = false;
+                MensajeError = "No Encontrado" + error.Message.ToString();
+            }
+            finally
+            {
 
+                coneccion.Close();
+                ObjConexion = null;
+            }
 
-        /*  internal DataTable SeleccionarUsuario(string Usuario, string Contrasena, int Sub_Control, ref bool ResultadoOK, ref string MensajeError)
-          {
-              DataSet dataset = new DataSet();
-              DataTable datatable = new DataTable();
-              clConexion ObjConexion = new clConexion();
-              SqlConnection coneccion = new SqlConnection(ObjConexion.Conectar());
-              try
-              {
-
-                  SqlCommand cmd = new SqlCommand("Busqueda_Usuario", coneccion);
-                  cmd.CommandType = CommandType.StoredProcedure;
-                  cmd.Parameters.AddWithValue("@Control", "S");
-                  cmd.Parameters.AddWithValue("@Sub_Control", Sub_Control);
-                  cmd.Parameters.AddWithValue("@Usuario", Usuario);
-                  cmd.Parameters.AddWithValue("@Contrasena", Contrasena);
-
-                  SqlDataAdapter SqlDa = new SqlDataAdapter(cmd);
-                  SqlDa.Fill(dataset);
-                  datatable = dataset.Tables[0];
-
-                  ResultadoOK = true;
-                  MensajeError = "";
-
-              }
-              catch (Exception error)
-              {
-                  ResultadoOK = false;
-                  MensajeError = "No Encontrado" + error.Message.ToString();
-              }
-              finally
-              {
-
-                  coneccion.Close();
-                  ObjConexion = null;
-              }
-
-              return datatable;
-          }*/
+            return datatable;
+        }
 
 
     }

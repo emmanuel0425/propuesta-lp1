@@ -51,7 +51,7 @@ namespace Capa_Datos
                 SqlDataAdapter SqlDa = new SqlDataAdapter(cmd);
                 SqlDa.Fill(dataset);
 
-                if (objEmpleado.Empleado_ID== 0)
+                if (objEmpleado.Empleado_ID == 0)
                 {
                     datatable = dataset.Tables[0];
                     objEmpleado.Empleado_ID= Convert.ToInt32(datatable.Rows[0]["Empleado_ID"]);

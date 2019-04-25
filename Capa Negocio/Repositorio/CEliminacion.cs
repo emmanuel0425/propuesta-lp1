@@ -12,7 +12,7 @@ namespace Capa_Negocio.Repositorio
     {
         
             
-        internal void EliminarPaciente(int Empleado_ID, ref bool ResultadoOK, ref string MensajeError)
+        internal void EliminarEmpleado(int Empleado_ID, ref bool ResultadoOK, ref string MensajeError)
         {
             DataSet dataset = new DataSet();
             SqlConnection coneccion = new SqlConnection(CConexion.Conectar());
@@ -33,7 +33,7 @@ namespace Capa_Negocio.Repositorio
             catch (Exception error)
             {
                 ResultadoOK = false;
-                MensajeError = "No se pudo eliminar el Empleado " + error.Message.ToString();
+                MensajeError = "No se pudo eliminar el empleado. " + error.Message.ToString();
             }
             finally
             {
