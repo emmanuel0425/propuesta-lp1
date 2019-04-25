@@ -40,7 +40,7 @@
             this.TBRNC = new System.Windows.Forms.TextBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.TBProveedorNo = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
+            this.LbSector = new System.Windows.Forms.Label();
             this.CBProveedorProvincia = new System.Windows.Forms.ComboBox();
             this.LbEmpleadoProvincia = new System.Windows.Forms.Label();
             this.TBProveedorCalle = new System.Windows.Forms.TextBox();
@@ -160,7 +160,7 @@
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.TBProveedorNo);
-            this.groupBox1.Controls.Add(this.label3);
+            this.groupBox1.Controls.Add(this.LbSector);
             this.groupBox1.Controls.Add(this.CBProveedorProvincia);
             this.groupBox1.Controls.Add(this.LbEmpleadoProvincia);
             this.groupBox1.Controls.Add(this.TBProveedorCalle);
@@ -180,19 +180,19 @@
             this.TBProveedorNo.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
             this.TBProveedorNo.Location = new System.Drawing.Point(444, 53);
             this.TBProveedorNo.Name = "TBProveedorNo";
-            this.TBProveedorNo.Size = new System.Drawing.Size(143, 24);
+            this.TBProveedorNo.Size = new System.Drawing.Size(397, 24);
             this.TBProveedorNo.TabIndex = 33;
             // 
-            // label3
+            // LbSector
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
-            this.label3.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label3.Location = new System.Drawing.Point(444, 32);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(32, 18);
-            this.label3.TabIndex = 34;
-            this.label3.Text = "No.";
+            this.LbSector.AutoSize = true;
+            this.LbSector.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
+            this.LbSector.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.LbSector.Location = new System.Drawing.Point(444, 32);
+            this.LbSector.Name = "LbSector";
+            this.LbSector.Size = new System.Drawing.Size(52, 18);
+            this.LbSector.TabIndex = 34;
+            this.LbSector.Text = "Sector";
             // 
             // CBProveedorProvincia
             // 
@@ -303,7 +303,7 @@
         private System.Windows.Forms.TextBox TBRNC;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.TextBox TBProveedorNo;
-        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label LbSector;
         private System.Windows.Forms.ComboBox CBProveedorProvincia;
         private System.Windows.Forms.Label LbEmpleadoProvincia;
         private System.Windows.Forms.TextBox TBProveedorCalle;
